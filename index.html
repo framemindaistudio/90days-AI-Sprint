@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI & ML — A 60-Day Program for Dr. Mala Patil</title>
-<meta name="description" content="A personal 60-day program in AI and Machine Learning, prepared for Dr. Mala Patil by FrameMind AI Studio.">
+<title>AI & Building with AI — A 6-Week Program for Dr. Mala Patil</title>
+<meta name="description" content="A personal 6-week program in AI and AI-assisted app building, prepared for Dr. Mala Patil by FrameMind AI Studio.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -366,92 +366,7 @@ ul, ol { list-style: none; }
 .section--dark .section__lede { color: var(--gray-soft); }
 
 /* ========================================================
-   HOW IT WORKS — philosophy blocks
-   ======================================================== */
-.how-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1px;
-  background: var(--paper-line);
-  border: 1px solid var(--paper-line);
-}
-@media (max-width: 820px) { .how-grid { grid-template-columns: 1fr; } }
-.how-item {
-  background: var(--paper);
-  padding: 48px 40px 56px;
-}
-.how-item__num {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--gray);
-  letter-spacing: 0.04em;
-  margin-bottom: 20px;
-}
-.how-item__title {
-  font-size: 24px;
-  font-weight: 500;
-  letter-spacing: -0.015em;
-  line-height: 1.2;
-  margin-bottom: 16px;
-}
-.how-item__body {
-  font-size: 16px;
-  color: var(--gray);
-  line-height: 1.55;
-}
-
-/* Session flow strip */
-.flow {
-  margin-top: 100px;
-  border-top: 1px solid var(--paper-line);
-  padding-top: 60px;
-}
-.flow__label {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--gray);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin-bottom: 32px;
-}
-.flow__title {
-  font-size: clamp(28px, 3vw, 40px);
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  margin-bottom: 48px;
-  max-width: 780px;
-  line-height: 1.15;
-}
-.flow__strip {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 24px;
-}
-@media (max-width: 820px) { .flow__strip { grid-template-columns: 1fr; } }
-.flow__step {
-  padding-top: 20px;
-  border-top: 2px solid var(--ink);
-}
-.flow__step-time {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--ink);
-  margin-bottom: 12px;
-}
-.flow__step-title {
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 6px;
-  letter-spacing: -0.005em;
-}
-.flow__step-body {
-  font-size: 14px;
-  color: var(--gray);
-  line-height: 1.5;
-}
-
-/* ========================================================
-   ROADMAP — 9 week grid, editorial
+   ROADMAP — 6 week grid, editorial
    ======================================================== */
 .roadmap {
   display: grid;
@@ -950,66 +865,6 @@ ul, ol { list-style: none; }
   color: var(--ink);
 }
 
-/* Prompt tier headings + app-scale variant */
-.prompt-tier {
-  margin-top: 100px;
-  margin-bottom: 40px;
-  padding-bottom: 28px;
-  border-bottom: 1px solid var(--paper-line);
-  display: grid;
-  grid-template-columns: 120px 1fr;
-  gap: 32px;
-  align-items: baseline;
-}
-.prompt-tier:first-child { margin-top: 0; }
-.prompt-tier__num {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--gray);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-.prompt-tier__title {
-  font-size: clamp(28px, 3vw, 36px);
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
-  margin-bottom: 12px;
-}
-.prompt-tier__desc {
-  font-size: 15px;
-  color: var(--gray);
-  line-height: 1.55;
-  max-width: 640px;
-}
-@media (max-width: 720px) {
-  .prompt-tier { grid-template-columns: 1fr; gap: 12px; margin-top: 80px; }
-}
-.prompt-grid--app-scale {
-  grid-template-columns: 1fr;
-  gap: 32px;
-}
-.prompt-card--large {
-  padding: 40px 44px;
-  border-left: 2px solid var(--ink);
-}
-.prompt-card--large .prompt-card__title {
-  font-size: 22px;
-  margin-bottom: 24px;
-  letter-spacing: -0.01em;
-}
-.prompt-card--large .prompt-card__body {
-  font-size: 13px;
-  line-height: 1.7;
-  padding: 28px 32px;
-  max-height: 420px;
-  overflow-y: auto;
-}
-@media (max-width: 720px) {
-  .prompt-card--large { padding: 32px 24px; }
-  .prompt-card--large .prompt-card__body { padding: 20px; max-height: 360px; }
-}
-
 /* ========================================================
    GLOSSARY
    ======================================================== */
@@ -1176,7 +1031,6 @@ ul, ol { list-style: none; }
       FRAMEMIND AI STUDIO
     </a>
     <div class="nav__links">
-      <a href="#how">How it works</a>
       <a href="#roadmap">Roadmap</a>
       <a href="#days">Days</a>
       <a href="#tools">Tools</a>
@@ -1193,12 +1047,12 @@ ul, ol { list-style: none; }
   <div class="hero__inner">
     <div class="hero__eyebrow">
       <span class="hero__eyebrow-dot"></span>
-      A 60-DAY PROGRAM · JUL 07 — SEP 04, 2026 · DAILY
+      A 6-WEEK PROGRAM · JUL 07 — AUG 17, 2026
     </div>
     <div class="hero__welcome">Welcome,</div>
     <h1 class="hero__name">Dr. Mala<br>Patil.</h1>
     <p class="hero__thesis">
-      Over the next sixty days, one hour every evening,
+      Over the next six weeks, one hour every evening,
       you will move from watching AI happen to
       <strong>using it, building with it, and teaching it back to yourself.</strong>
       This portal holds everything — every session, every tool,
@@ -1215,7 +1069,7 @@ ul, ol { list-style: none; }
       </div>
       <div class="hero__meta-item">
         <div class="label">Sessions</div>
-        <div class="value">60 total</div>
+        <div class="value">42 total</div>
       </div>
       <div class="hero__meta-item">
         <div class="label">Outcome</div>
@@ -1260,128 +1114,19 @@ ul, ol { list-style: none; }
 </section>
 
 <!-- ================================================ -->
-<!-- HOW IT WORKS                                     -->
-<!-- ================================================ -->
-<section class="section" id="how">
-  <div class="section__inner">
-    <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">01</span> HOW THIS WORKS</div>
-      <div>
-        <h2 class="section__title">Small hours,<br>real work.</h2>
-        <p class="section__lede">
-          One hour every evening, seven days a week, for sixty days.
-          Every session ends with something real — a saved draft,
-          a working screen, a task off your list.
-        </p>
-      </div>
-    </div>
-
-    <div class="how-grid">
-      <div class="how-item">
-        <div class="how-item__num">/ 01</div>
-        <h3 class="how-item__title">Concepts anchored to your world</h3>
-        <p class="how-item__body">
-          Every idea is introduced through something you already know —
-          teaching an intern to spot a nutrient deficiency, tending a nursery,
-          building a lesson plan. The technical term always comes second.
-        </p>
-      </div>
-      <div class="how-item">
-        <div class="how-item__num">/ 02</div>
-        <h3 class="how-item__title">Hands-on from minute five</h3>
-        <p class="how-item__body">
-          Within the first five minutes of every session, you're typing,
-          tapping, uploading. Roughly eighty percent of each hour is you doing;
-          twenty percent is Chinmay explaining and guiding.
-        </p>
-      </div>
-      <div class="how-item">
-        <div class="how-item__num">/ 03</div>
-        <h3 class="how-item__title">Your own work, always</h3>
-        <p class="how-item__body">
-          The practice material is your real emails, real papers, real projects.
-          By the end of each session you've moved something on your actual to-do list forward,
-          not solved a made-up example.
-        </p>
-      </div>
-      <div class="how-item">
-        <div class="how-item__num">/ 04</div>
-        <h3 class="how-item__title">Recap sent within the hour</h3>
-        <p class="how-item__body">
-          A short WhatsApp note lands after every session:
-          what we covered, the exact steps to redo it on your own,
-          and why it matters. This is the note you'll revisit,
-          not the one you'll forget.
-        </p>
-      </div>
-      <div class="how-item">
-        <div class="how-item__num">/ 05</div>
-        <h3 class="how-item__title">Teach-back, every time</h3>
-        <p class="how-item__body">
-          The last ten minutes of each session, you explain what you
-          just did in your own words. This is the single strongest technique
-          for making adult learning stick — better than notes, better than repetition.
-        </p>
-      </div>
-      <div class="how-item">
-        <div class="how-item__num">/ 06</div>
-        <h3 class="how-item__title">The streak matters, but so does honesty</h3>
-        <p class="how-item__body">
-          Sixty consecutive days is the plan, and consistency is the point.
-          But if life intervenes — a fever, a conference, a family need —
-          resume the next evening from where you left. Missed sessions are
-          logged, not skipped: we come back to them at Week 9 review.
-        </p>
-      </div>
-    </div>
-
-    <div class="flow">
-      <div class="flow__label">/ THE ONE-HOUR SHAPE</div>
-      <h3 class="flow__title">Every session follows the same rhythm, so you always know where you are.</h3>
-      <div class="flow__strip">
-        <div class="flow__step">
-          <div class="flow__step-time">0:00 — 0:05</div>
-          <div class="flow__step-title">Warm start</div>
-          <div class="flow__step-body">Recap yesterday. Check in on the homework. One-line preview of today.</div>
-        </div>
-        <div class="flow__step">
-          <div class="flow__step-time">0:05 — 0:15</div>
-          <div class="flow__step-title">Idea + demo</div>
-          <div class="flow__step-body">The new concept, always via analogy first. Then Chinmay demos it live.</div>
-        </div>
-        <div class="flow__step">
-          <div class="flow__step-time">0:15 — 0:45</div>
-          <div class="flow__step-title">You drive</div>
-          <div class="flow__step-body">Your hands on the keyboard, your real content. Chinmay guides and unblocks.</div>
-        </div>
-        <div class="flow__step">
-          <div class="flow__step-time">0:45 — 0:55</div>
-          <div class="flow__step-title">Teach-back</div>
-          <div class="flow__step-body">You explain what you did, in your own words. If you can teach it, you own it.</div>
-        </div>
-        <div class="flow__step">
-          <div class="flow__step-time">0:55 — 1:00</div>
-          <div class="flow__step-title">One real task</div>
-          <div class="flow__step-body">Homework — always a real thing from your actual week. Never made-up practice.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================================================ -->
 <!-- ROADMAP                                          -->
 <!-- ================================================ -->
 <section class="section section--soft" id="roadmap">
   <div class="section__inner">
     <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">02</span> THE 9-WEEK ROADMAP</div>
+      <div class="section__eyebrow"><span class="section__eyebrow-num">01</span> THE 6-WEEK ROADMAP</div>
       <div>
-        <h2 class="section__title">Nine weeks,<br>three real builds.</h2>
+        <h2 class="section__title">Six weeks,<br>three real builds.</h2>
         <p class="section__lede">
-          Weeks 1 and 2 lay the ground. Weeks 3 and 4 hand you a research toolkit
-          you'll use for every paper from here on. Weeks 5 through 7 build your app.
-          Weeks 8 and 9 tie everything together.
+          Weeks 1 and 2 lay the ground. Week 3 hands you a research toolkit
+          you'll use for every paper from here on. Weeks 4 and 5 build your
+          real app with AI-assisted coding. Week 6 deploys it live and ties
+          everything together.
         </p>
       </div>
     </div>
@@ -1395,9 +1140,9 @@ ul, ol { list-style: none; }
 <section class="section" id="days">
   <div class="section__inner">
     <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">03</span> DAY BY DAY</div>
+      <div class="section__eyebrow"><span class="section__eyebrow-num">02</span> DAY BY DAY</div>
       <div>
-        <h2 class="section__title">All 60 sessions,<br>in one place.</h2>
+        <h2 class="section__title">All 42 sessions,<br>in one place.</h2>
         <p class="section__lede">
           Tap any week to expand. Check each session off as you complete it —
           your progress is saved on this device, so you can return to it any time.
@@ -1411,7 +1156,7 @@ ul, ol { list-style: none; }
           <div class="days-progress-fill" id="progress-fill" style="width: 0%"></div>
         </div>
       </div>
-      <div class="days-progress-label" id="progress-label">0 / 60 SESSIONS COMPLETE</div>
+      <div class="days-progress-label" id="progress-label">0 / 42 SESSIONS COMPLETE</div>
       <div class="days-actions">
         <button id="btn-expand-all">Expand all</button>
         <button id="btn-collapse-all">Collapse all</button>
@@ -1429,7 +1174,7 @@ ul, ol { list-style: none; }
 <section class="section section--soft" id="deep-daily">
   <div class="section__inner">
     <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">04</span> AI FOR DAILY LIFE & WORK</div>
+      <div class="section__eyebrow"><span class="section__eyebrow-num">03</span> AI FOR DAILY LIFE & WORK</div>
       <div>
         <h2 class="section__title">The everyday<br>toolkit.</h2>
         <p class="section__lede">
@@ -1517,7 +1262,7 @@ ul, ol { list-style: none; }
 <section class="section" id="deep-research">
   <div class="section__inner">
     <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">05</span> AI FOR RESEARCH & REPORTS</div>
+      <div class="section__eyebrow"><span class="section__eyebrow-num">04</span> AI FOR RESEARCH & REPORTS</div>
       <div>
         <h2 class="section__title">The research<br>pipeline.</h2>
         <p class="section__lede">
@@ -1605,12 +1350,13 @@ ul, ol { list-style: none; }
 <section class="section section--soft" id="deep-app">
   <div class="section__inner">
     <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">06</span> BUILDING YOUR APP</div>
+      <div class="section__eyebrow"><span class="section__eyebrow-num">05</span> BUILDING YOUR APP</div>
       <div>
-        <h2 class="section__title">From spreadsheet<br>to phone.</h2>
+        <h2 class="section__title">From prompt<br>to production.</h2>
         <p class="section__lede">
-          Modern no-code platforms let you build a working mobile app from a
-          well-organised spreadsheet, in an afternoon. Here's the shape of what you'll be doing.
+          AI-assisted coding lets you build a real, working, live-on-the-internet
+          app in plain English — no computer-science degree required. Here's the
+          shape of what you'll be doing.
         </p>
       </div>
     </div>
@@ -1618,63 +1364,51 @@ ul, ol { list-style: none; }
     <div class="deep-dive">
       <div class="deep-dive__prose">
         <h4>The core idea</h4>
-        <p>Every app is a set of screens sitting on top of a database. The database holds the information (projects, students, seeds, equipment). The screens let you look at it, add to it, and change it. In a no-code tool, you build the database first — as a spreadsheet — and the tool generates the screens for you automatically. Then you refine.</p>
+        <p>Every real app is three layers: a database that holds the information (projects, students, seeds, equipment), a backend that reads and writes to it safely, and a frontend — the screens you actually see and touch. AI-assisted coding tools like Claude Code write the backend and frontend for you from plain-English instructions. Supabase gives you a real, production-grade database without needing to run one yourself. GitHub keeps every version of your code safe. Vercel takes your code and makes it a live website. Together, that's the whole stack.</p>
 
-        <h4>Why AppSheet</h4>
-        <p>AppSheet is owned by Google, connects seamlessly to Google Sheets and Drive, generates working iOS and Android apps from any well-structured spreadsheet, and costs five dollars per user per month for the paid tier — a fraction of building anything comparable in a traditional way. Its Gemini integration means you can describe what you want in plain English and the tool builds a first version for you to refine.</p>
+        <h4>Why this stack, not no-code</h4>
+        <p>No-code tools like AppSheet are a fine shortcut, but they cap out fast — you inherit their templates, their limits, their pricing. AI-assisted coding produces real code you own outright, that can do anything a professional developer's app can do, and that costs nothing beyond free tiers at your scale. The gap between "no-code" and "real software" has nearly closed — what used to take a development team now takes a clear description and a patient hour.</p>
 
         <h4>The build sequence</h4>
         <ul>
           <li><strong>Model the world</strong> — decide what information you need to track. For a PIMS-style app: projects, principal investigators, budget, dates, status, deliverables, notes.</li>
-          <li><strong>Build the spreadsheet</strong> — one row per project, one column per attribute. Clean headers, no merged cells, consistent formats.</li>
-          <li><strong>Generate the app</strong> — point AppSheet at the sheet. It builds list views, detail views, forms, and navigation automatically. Ten seconds.</li>
-          <li><strong>Refine views</strong> — customise which columns show where, add filters ("show me projects due this month"), design a dashboard.</li>
-          <li><strong>Add automations</strong> — email reminders when deadlines approach, weekly digests, status-change notifications.</li>
-          <li><strong>Set roles</strong> — who can view, who can edit, who can only add. Not everyone needs to see everything.</li>
-          <li><strong>Install on your phone</strong> — share the app link with yourself, add to home screen, and it behaves like any other mobile app.</li>
+          <li><strong>Set up your tools</strong> — Claude Code as your coding partner, GitHub to save every version, Supabase as your real database.</li>
+          <li><strong>Build the data model</strong> — real tables in Supabase, properly related: projects, people, tasks.</li>
+          <li><strong>Generate the screens</strong> — describe the add, edit, view, and dashboard screens in plain English; Claude Code builds them, connected to your real data.</li>
+          <li><strong>Polish and test</strong> — styling, mobile-friendliness, and stress-testing with real data.</li>
+          <li><strong>Ship it</strong> — push to GitHub, deploy on Vercel, and secure your Supabase data for the public internet.</li>
         </ul>
 
         <h4>What to build first</h4>
         <p>A UHS-PIMS-style Project Information Management System is the anchor project. Start with a scoped, personal version — the projects you personally supervise, the deliverables you personally track — and demonstrate value before proposing a department-wide roll-out. A small, working, personal prototype is worth more than a large, planned, unfinished institutional system.</p>
 
         <h4>The realistic scope</h4>
-        <p>In sixty days of one-hour sessions, you will have a real, working, installed prototype that you personally use. A full institutional deployment — multi-department, hosted on university servers, security-reviewed, integrated with existing systems — is a different, larger project. It's a natural next step once your prototype has proven the concept.</p>
-
-        <h4>Where AI-assisted coding fits</h4>
-        <p>No-code tools like AppSheet handle roughly ninety percent of what most people need. For the remaining ten percent — genuinely custom logic, unusual integrations, complex data processing — AI-assisted coding tools (Claude Code, Cursor, v0) can build small custom features from plain-English descriptions. You'll see this demonstrated in Week 8 as a preview, not as something you need to master. Knowing it exists changes what you can ask for from a developer later.</p>
+        <p>In six weeks of one-hour sessions, you will have a real, working, live prototype that you personally use, hosted on Vercel with a real Supabase database behind it. A full institutional deployment — multi-department, hosted on university infrastructure, security-reviewed, integrated with existing systems — is a different, larger project. It's a natural next step once your prototype has proven the concept.</p>
       </div>
 
       <aside class="deep-dive__aside">
         <div class="deep-dive__aside-label">/ APP-BUILDING STACK</div>
-        <h5>Everything you need to ship your first app.</h5>
+        <h5>Everything you need to ship a real app.</h5>
         <div class="deep-dive__aside-list">
           <div class="deep-dive__aside-item">
-            <div class="name">Google Sheets</div>
-            <div class="desc">The database. Free with any Google account. Where the data lives.</div>
+            <div class="name">Claude Code</div>
+            <div class="desc">Your AI coding partner. Writes real, working code from plain English.</div>
           </div>
           <div class="deep-dive__aside-item">
-            <div class="name">AppSheet</div>
-            <div class="desc">The no-code builder. Generates iOS + Android apps from your sheet.</div>
+            <div class="name">Supabase</div>
+            <div class="desc">The database. A real, production-grade cloud database, free at your scale.</div>
           </div>
           <div class="deep-dive__aside-item">
-            <div class="name">AppSheet Database</div>
-            <div class="desc">A more capable alternative to Sheets as the backing store, as your app grows.</div>
+            <div class="name">GitHub</div>
+            <div class="desc">Where your code lives, permanently versioned. Free for personal projects.</div>
           </div>
           <div class="deep-dive__aside-item">
-            <div class="name">Google Drive</div>
-            <div class="desc">For file attachments — photos, PDFs, proposal documents.</div>
-          </div>
-          <div class="deep-dive__aside-item">
-            <div class="name">Gmail</div>
-            <div class="desc">Powers the automated email reminders your app will send.</div>
+            <div class="name">Vercel</div>
+            <div class="desc">Deploys your app to a live, public web address in one click. Free tier.</div>
           </div>
           <div class="deep-dive__aside-item">
             <div class="name">Canva</div>
-            <div class="desc">For your app's logo, colour palette, splash screen.</div>
-          </div>
-          <div class="deep-dive__aside-item">
-            <div class="name">Teachable Machine</div>
-            <div class="desc">If you want to add an image-recognition feature later. Free, no code.</div>
+            <div class="desc">For your app's logo, colour palette, and visual identity.</div>
           </div>
         </div>
       </aside>
@@ -1688,7 +1422,7 @@ ul, ol { list-style: none; }
 <section class="section" id="tools">
   <div class="section__inner">
     <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">07</span> THE TOOL LIBRARY</div>
+      <div class="section__eyebrow"><span class="section__eyebrow-num">06</span> THE TOOL LIBRARY</div>
       <div>
         <h2 class="section__title">Every tool<br>in one place.</h2>
         <p class="section__lede">
@@ -1708,18 +1442,17 @@ ul, ol { list-style: none; }
 <section class="section section--soft" id="prompts">
   <div class="section__inner">
     <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">08</span> THE PROMPT LIBRARY</div>
+      <div class="section__eyebrow"><span class="section__eyebrow-num">07</span> THE PROMPT LIBRARY</div>
       <div>
         <h2 class="section__title">Prompts that<br>actually work.</h2>
         <p class="section__lede">
-          Thirty-six prompts, grouped from structurally simple to substantial.
-          Copy any of them into Claude or ChatGPT. Replace the bracketed parts
-          with your specifics. The tiers describe the prompt's shape, not yours.
+          Copy any of these into Claude or ChatGPT. Replace the bracketed parts with
+          your specifics. They follow the same formula: context, task, format.
         </p>
       </div>
     </div>
 
-    <div id="prompts-container"></div>
+    <div class="prompt-grid" id="prompts-container"></div>
   </div>
 </section>
 
@@ -1729,7 +1462,7 @@ ul, ol { list-style: none; }
 <section class="section" id="glossary">
   <div class="section__inner">
     <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">09</span> GLOSSARY</div>
+      <div class="section__eyebrow"><span class="section__eyebrow-num">08</span> GLOSSARY</div>
       <div>
         <h2 class="section__title">The vocabulary,<br>plainly.</h2>
         <p class="section__lede">
@@ -1749,7 +1482,7 @@ ul, ol { list-style: none; }
 <section class="section section--soft" id="faq">
   <div class="section__inner">
     <div class="section__header">
-      <div class="section__eyebrow"><span class="section__eyebrow-num">10</span> FAQ</div>
+      <div class="section__eyebrow"><span class="section__eyebrow-num">09</span> FAQ</div>
       <div>
         <h2 class="section__title">Questions,<br>answered.</h2>
         <p class="section__lede">
@@ -1770,7 +1503,7 @@ ul, ol { list-style: none; }
   <div class="footer__inner">
     <h2 class="footer__title">
       Every day, one hour.<br>
-      Sixty days, three real builds,<br>
+      Six weeks, three real builds,<br>
       one new <em>way of working.</em>
     </h2>
 
@@ -1778,7 +1511,7 @@ ul, ol { list-style: none; }
       <div>
         <div class="footer__col-label">/ ABOUT THIS PROGRAM</div>
         <div class="footer__col-body">
-          <p>This is a personal 60-day program prepared for Dr. Mala Patil, Senior Professor at the University of Horticultural Sciences, Bagalkot.</p>
+          <p>This is a personal 6-week program prepared for Dr. Mala Patil, Senior Professor at the University of Horticultural Sciences, Bagalkot.</p>
           <p>Designed and delivered by Chinmay R M of FrameMind AI Studio, Bengaluru — a creative and technical studio building websites, brand identity, custom software, and AI-native workflows.</p>
         </div>
       </div>
@@ -1791,21 +1524,21 @@ ul, ol { list-style: none; }
       <div>
         <div class="footer__col-label">/ SESSIONS</div>
         <div class="footer__col-body">
-          <p>Every evening, 7 days a week<br>6:00 — 7:00 PM<br>Jul 07 — Sep 04, 2026</p>
+          <p>Every day<br>6:00 — 7:00 PM<br>Jul 07 — Aug 17, 2026</p>
         </div>
       </div>
     </div>
 
     <div class="footer__base">
       <div>© 2026 FRAMEMIND AI STUDIO · MADE WITH CARE IN BENGALURU</div>
-      <div>DR. MALA PATIL · AI & ML · 60 DAYS · V 1.0</div>
+      <div>DR. MALA PATIL · AI & BUILDING WITH AI · 6 WEEKS · V 1.0</div>
     </div>
   </div>
 </footer>
 
 <script>
 /* ============================================================
-   DATA — All 60 sessions, tools, prompts, glossary, FAQ
+   DATA — All 42 sessions, tools, prompts, glossary, FAQ
    ============================================================ */
 
 const START_DATE = new Date('2026-07-07T00:00:00');
@@ -1815,7 +1548,7 @@ const WEEKS = [
     n: 1,
     title: 'AI Foundations & Prompting',
     range: 'Jul 07 — Jul 13',
-    theme: 'Getting comfortable with the tools, understanding what AI is and isn\'t, learning to speak to it clearly, and knowing when it\'s wrong.',
+    theme: 'Getting comfortable with the tools, understanding what AI is and isn\'t, learning to speak to it clearly.',
     deliverable: 'First solo AI task',
     goal: 'Groundwork for all three goals'
   },
@@ -1823,74 +1556,50 @@ const WEEKS = [
     n: 2,
     title: 'AI for Daily Work & Teaching',
     range: 'Jul 14 — Jul 20',
-    theme: 'Everyday tasks — organising the week, lectures, assessments, admin writing, simplifying content — done faster and better.',
+    theme: 'Everyday tasks — organising the week, preparing lectures, simplifying dense content — done faster and better.',
     deliverable: 'One full AI-assisted lecture',
     goal: 'Groundwork for all three goals'
   },
   {
     n: 3,
-    title: 'Research Papers I — Search & Reading',
+    title: 'Research Papers — Search, Draft & Polish',
     range: 'Jul 21 — Jul 27',
-    theme: 'A modern literature-review pipeline: semantic search, grounded reading, structured reference management, deep-dives on the research tools.',
-    deliverable: 'Lit-review pipeline set up',
-    goal: 'Goal 3 — Research'
-  },
-  {
-    n: 4,
-    title: 'Research Papers II — Data & Submission',
-    range: 'Jul 28 — Aug 03',
-    theme: 'From data to charts, statistics to plain English, peer-review responses to submission. Your personal Research AI Toolkit takes shape.',
+    theme: 'A modern literature-review pipeline end to end: semantic search, grounded reading, referencing, drafting with integrity, data and statistics, citations, and polish.',
     deliverable: 'Research AI Toolkit complete',
     goal: 'Goal 3 — Research'
   },
   {
+    n: 4,
+    title: 'Building Your Real App: Foundations',
+    range: 'Jul 28 — Aug 03',
+    theme: 'What building a real app actually involves. Your AI coding partner, GitHub, and Supabase — set up and building your first real screens.',
+    deliverable: 'First real screens, connected to a live database',
+    goal: 'Goal 1 & 2 — Web app / PIMS'
+  },
+  {
     n: 5,
-    title: 'No-Code App Building: Foundations',
+    title: 'Building & Polishing the Real PIMS App',
     range: 'Aug 04 — Aug 10',
-    theme: 'What a database really is. Your first working app from a spreadsheet, with photos, charts, and user roles.',
-    deliverable: 'First working practice app',
-    goal: 'Goal 1 — Mobile app'
+    theme: 'Requirements, data model, dashboards, relationships, styling, testing, and making it work beautifully on your phone.',
+    deliverable: 'PIMS web app with real data, mobile-friendly',
+    goal: 'Goal 1 & 2 — Web app / PIMS'
   },
   {
     n: 6,
-    title: 'Building the Real PIMS App',
+    title: 'Deploy & Showcase',
     range: 'Aug 11 — Aug 17',
-    theme: 'Requirements, data model, screens, dashboard, relational links, filters. Your real project-tracking app comes together.',
-    deliverable: 'PIMS app with real data',
-    goal: 'Goal 2 — PIMS project'
-  },
-  {
-    n: 7,
-    title: 'Polish + Go Mobile',
-    range: 'Aug 18 — Aug 24',
-    theme: 'Branding, automations, backup, colleague sharing, testing, installing on your phone. Both mobile-app and PIMS goals land here.',
-    deliverable: 'App installed on your phone',
-    goal: 'Goals 1 & 2'
-  },
-  {
-    n: 8,
-    title: 'Machine Learning + AI-Coding Preview',
-    range: 'Aug 25 — Aug 31',
-    theme: 'Train an image classifier on your own plant photos. Understand training data and accuracy. Peek at what AI-assisted coding now makes possible.',
-    deliverable: 'Your own trained classifier',
-    goal: 'Stretch / bonus'
-  },
-  {
-    n: 9,
-    title: 'Integration & Showcase',
-    range: 'Sep 01 — Sep 04',
-    theme: 'Everything comes together. Your personal AI Playbook, a full dry run, rehearsal, and the final demo to your department.',
-    deliverable: 'Final showcase + Playbook',
+    theme: 'Your personal AI Playbook, publishing your code on GitHub, going live on Vercel, Supabase in production, a final dry run, and a demo to your department.',
+    deliverable: 'App live on the internet + final showcase + Playbook',
     goal: 'All three goals'
   }
 ];
 
 const DAYS = [
-  // WEEK 1 — AI Foundations & Prompting (Days 1-7)
+  // WEEK 1
   { n: 1, week: 1, title: 'What AI actually is, in plain language',
     session: 'Introduce AI and ML through your own world — teaching an intern to recognise a nutrient deficiency from labelled photos, rather than from a rulebook. Set up Claude and ChatGPT accounts together, walk through the interface, run the first three prompts on real questions you have from your day.',
     handson: 'Sign in to Claude and ChatGPT. Ask each one the same three real questions and compare the answers side by side.',
-    homework: 'Ask AI one real question from your actual day — something you would have Googled otherwise.',
+    homework: 'Between now and tomorrow, ask AI one real question from your actual day — something you would have Googled otherwise.',
     outcome: 'You have accounts, you\'ve asked real questions, and the tool no longer feels foreign.' },
   { n: 2, week: 1, title: 'The anatomy of a strong prompt',
     session: 'The single most useful skill: how to ask. The formula is context, task, format. We take three weak prompts you might have written and rewrite them side by side into strong ones, watching the output change dramatically.',
@@ -1900,30 +1609,30 @@ const DAYS = [
   { n: 3, week: 1, title: 'AI for everyday writing',
     session: 'Letters, notices, circulars, replies — the writing that eats a quarter of your workday. We take one real letter you need to send and draft it together, editing for tone and truth as we go.',
     handson: 'Draft a real letter or notice you actually need to send this week, with AI, and send it after editing.',
-    homework: 'Send one more AI-drafted, human-reviewed piece of writing before tomorrow.',
+    homework: 'Send one more AI-drafted, human-reviewed piece of writing before our next session.',
     outcome: 'A working writing rhythm — AI drafts, you edit, done in a quarter of the time.' },
   { n: 4, week: 1, title: 'AI for summarising long material',
     session: 'The reading pile is infinite; your time is not. We upload one real horticulture paper or long article you\'ve been meaning to read, generate a clean summary in NotebookLM, and learn to ask follow-up questions grounded in the document.',
     handson: 'Upload a paper you\'ve been meaning to read. Get a summary, then ask three follow-up questions about it.',
     homework: 'Summarise one more article from your reading pile the same way.',
     outcome: 'You can now decide whether to read something fully in ninety seconds.' },
-  { n: 5, week: 1, title: 'AI for translation — Kannada, English, and back',
-    session: 'Modern AI translates Kannada ↔ English at a quality that was impossible three years ago. This unlocks farmer outreach, community talks, WhatsApp forwards, university notices in both languages. We compare Claude, ChatGPT, and Google Translate on real material of yours.',
-    handson: 'Take one real English notice or teaching note. Translate to Kannada across three tools. Compare which one feels most natural for your region.',
-    homework: 'Translate one real piece of your work in the direction you need most.',
-    outcome: 'A default translation tool for your bilingual work.' },
-  { n: 6, week: 1, title: 'Spotting AI mistakes — the most important skill',
-    session: 'The single skill that separates confident AI users from careless ones: knowing when the tool is confidently wrong. Concrete examples of hallucinations — made-up references, wrong dates, incorrect regional facts. How to spot them: ask the same question twice differently, verify sources, check dates, cross-reference.',
-    handson: 'Give AI a tricky horticulture question and try to trip it up. Practice three verification techniques together.',
-    homework: 'In your next AI session, catch one thing that looks wrong. Verify it independently.',
-    outcome: 'A working scepticism that keeps you safe from AI\'s confident mistakes.' },
+  { n: 5, week: 1, title: 'AI for organising and structuring information',
+    session: 'A messy list of notes, marks, or observations becomes a clean table in minutes. We take something genuinely disorganised from your own work and ask AI to structure it — group it, label it, turn it into rows and columns you can actually use.',
+    handson: 'Paste one messy real list — student names and marks, a set of field notes, anything unsorted — and ask AI to turn it into a clean table.',
+    homework: 'Do the same with one more piece of unsorted information from your desk.',
+    outcome: 'A go-to move for turning chaos into structure in under a minute.' },
+  { n: 6, week: 1, title: 'Spotting AI mistakes — verify before you trust',
+    session: 'The most important safety skill in this whole program: AI sounds confident even when it\'s wrong. We deliberately ask a few tricky questions, catch the tool inventing an answer, and build the habit of checking anything that matters before you rely on it.',
+    handson: 'Ask AI three questions you already know the answer to. Find the one place it gets something subtly wrong, and see exactly how it happened.',
+    homework: 'Before your solo flight tomorrow, write down one rule for what you\'ll always double-check.',
+    outcome: 'A working instinct for when to trust AI outright and when to verify first.' },
   { n: 7, week: 1, title: 'Recap + first solo flight',
     session: 'Recap week one. Then — the important moment — you complete one real task alone, from prompt to result, while Chinmay watches quietly. Any hiccups, we solve together. This is the confidence checkpoint.',
     handson: 'Choose one task from your real to-do list. Complete it end-to-end using AI, no help asked for.',
-    homework: 'Reflect on what surprised you this week. Note one thing you want more of in Week 2.',
+    homework: 'Rest. Reflect on what surprised you this week.',
     outcome: 'Proof that you can do this on your own.' },
 
-  // WEEK 2 — AI for Daily Work & Teaching (Days 8-14)
+  // WEEK 2
   { n: 8, week: 2, title: 'Organising your week with AI',
     session: 'Take the messy list of things sitting in your head and turn it into a clean, prioritised weekly plan. AI is good at this — it\'s patient, doesn\'t judge, and never gets distracted mid-list.',
     handson: 'Dump every to-do, meeting, deadline, and reminder for the coming week into AI. Have it group, prioritise, and produce a clean day-by-day plan.',
@@ -1944,23 +1653,23 @@ const DAYS = [
     handson: 'Dictate today\'s notes into Google Keep or your phone. Paste into AI. Ask it to clean up grammar, keep meaning, and produce a tidy paragraph.',
     homework: 'Dictate tomorrow\'s to-do list instead of typing it.',
     outcome: 'A dictate-clean-save workflow you can use anywhere.' },
-  { n: 12, week: 2, title: 'Question papers and student assessments',
-    session: 'AI can draft question papers of varying difficulty from a syllabus outline, produce answer keys, and generate rubric-based feedback on open-ended answers. Especially valuable for internal assessments where you need volume and variety.',
-    handson: 'Draft a real assessment for your next class — one MCQ set, one short-answer section, one long-answer question with a rubric.',
-    homework: 'Refine and use it. Note where AI over- or under-estimated difficulty.',
-    outcome: 'A working assessment-drafting workflow you can use for every batch.' },
-  { n: 13, week: 2, title: 'Administrative writing — proposals, reports, letters',
-    session: 'Proposals to the Dean, budget justifications, committee reports, meeting minutes, grant letters. AI handles the boilerplate structure; you handle the substance and the judgment. Especially useful for the "I\'ve been putting this off for two weeks" documents.',
-    handson: 'Draft one real administrative document you\'ve been avoiding. Send it before tomorrow.',
-    homework: 'Note how long it took vs. how long you thought it would.',
-    outcome: 'A concrete example of AI as an administrative time-saver.' },
+  { n: 12, week: 2, title: 'AI for meeting notes and follow-ups',
+    session: 'A meeting ends and the notes are scattered across a notebook or your memory. We take one real meeting — a committee, a department discussion — and turn rough notes into a clean summary with clear action items and a follow-up email.',
+    handson: 'Paste your notes from a real recent meeting. Ask AI for a summary, a list of action items, and a short follow-up email.',
+    homework: 'Do this for the next real meeting you attend.',
+    outcome: 'A meeting-to-action workflow that takes five minutes instead of an hour.' },
+  { n: 13, week: 2, title: 'A quick reference one-pager with AI + Canva',
+    session: 'Sometimes what a class or a colleague needs isn\'t a full deck — it\'s one clear page. We take a piece of your course material and turn it into a clean, visual one-pager using Canva\'s AI features.',
+    handson: 'Build one real one-pager — a handout, a quick-reference sheet, a poster — from your own material.',
+    homework: 'Print it or share it with one class or colleague before our next session.',
+    outcome: 'A fast, repeatable way to turn dense material into something people actually read.' },
   { n: 14, week: 2, title: 'Week 2 project — one full AI-assisted talk',
-    session: 'Put everything from Weeks 1 and 2 together: outline a talk or lecture, generate slides, simplify sections for the audience, prepare notes. From blank page to finished deck in one hour.',
+    session: 'Put everything from Week 1 and Week 2 together: outline a talk or lecture, generate slides, simplify sections for the audience, prepare notes. From blank page to finished deck in one hour.',
     handson: 'Complete a real upcoming talk end-to-end, using every tool you\'ve learned so far.',
     homework: 'Deliver the talk (or a rehearsal of it) and note what worked.',
     outcome: 'A finished, presentable talk built with AI as a working partner.' },
 
-  // WEEK 3 — Research I — Search & Reading (Days 15-21)
+  // WEEK 3
   { n: 15, week: 3, title: 'Literature search that actually works',
     session: 'Semantic search — describing what you want in plain sentences and having the tool find papers by meaning, not just keywords. Perplexity for open questions; NotebookLM for grounded reading of your own PDFs.',
     handson: 'Run three real research queries in Perplexity. Then create a NotebookLM notebook and upload three of your own papers.',
@@ -1976,233 +1685,137 @@ const DAYS = [
     handson: 'Draft one section of a real paper you\'re working on, with AI as your scaffolding assistant.',
     homework: 'Rewrite the draft entirely in your own words. Every sentence.',
     outcome: 'A draft section written in your voice, and a clear personal integrity line.' },
-  { n: 18, week: 3, title: 'The grammar and clarity pass',
-    session: 'Grammarly for grammar; AI for structural restructuring. The difference between a good paragraph and a great one is usually order and connection, not grammar.',
-    handson: 'Run yesterday\'s draft through Grammarly. Then ask AI to restructure it for flow. Compare.',
-    homework: 'Apply the same two-pass approach to one more paragraph.',
-    outcome: 'A polish workflow you\'ll use for every paper from here on.' },
-  { n: 19, week: 3, title: 'NotebookLM deep dive — audio, multi-doc, study guides',
-    session: 'Everything NotebookLM does beyond simple Q&A: audio overview (podcast-style summaries you can listen to while walking), study guides, timeline extraction from multiple sources, working across thirty documents at once.',
-    handson: 'Generate an audio overview of one paper. Listen to two minutes. Then build a multi-paper notebook on one research topic.',
-    homework: 'Use the audio overview to review one paper while doing something else.',
-    outcome: 'NotebookLM as a genuine research assistant, not just a summariser.' },
-  { n: 20, week: 3, title: 'Elicit and Consensus — structured evidence extraction',
-    session: 'When Elicit beats Perplexity: pulling methods, sample sizes, and effect sizes from many papers into a structured table. When Consensus beats both: yes/no evidence questions across the literature. We run real queries in your field.',
-    handson: 'Run a real research question through Elicit. Build a comparison table across five papers. Then run a yes/no question through Consensus.',
-    homework: 'Save the table to your research notes.',
-    outcome: 'Two more tools that reduce reading-hours to minutes for specific research tasks.' },
-  { n: 21, week: 3, title: 'Milestone — one section, full pipeline',
-    session: 'You take one real section of one real paper — search, read, extract, draft, cite, polish — through the entire pipeline in one session. The full workflow, in one hour.',
-    handson: 'Full pipeline, one section, one paper, one hour.',
-    homework: 'Note where the workflow felt fast and where it felt slow.',
-    outcome: 'Proof — to yourself — that the pipeline works end to end.' },
-
-  // WEEK 4 — Research II — Data & Submission (Days 22-28)
-  { n: 22, week: 4, title: 'Data analysis and charts',
-    session: 'Your real research data goes into Google Sheets. AI helps you write the formulas you always struggled with, and turns tables into publication-quality charts. Fast.',
-    handson: 'Paste one real dataset into Sheets. Ask Gemini to compute means, run a comparison, and build a chart.',
-    homework: 'Chart one more dataset you have on hand.',
-    outcome: 'A working data-to-chart workflow.' },
-  { n: 23, week: 4, title: 'Explaining statistics in plain English',
-    session: 'The moment where AI truly earns its keep for academics: taking your own statistical output and asking it to explain what the numbers actually mean in words you\'d use in a viva. Always verify against your own understanding.',
-    handson: 'Take one real statistical result from your work. Ask AI to explain it in plain English, then in defence-ready language.',
-    homework: 'Try this on one more result you\'ve struggled to explain to students.',
-    outcome: 'You can now explain your own statistics confidently.' },
-  { n: 24, week: 4, title: 'Citations and reference-checking',
-    session: 'AI-assisted formatting, cross-checking against Zotero, catching the small errors that reviewers love to flag. The reference list is where papers get rejected — we make yours bulletproof.',
-    handson: 'Format and cross-check the reference list of a real section you\'ve drafted.',
-    homework: 'Clean up one more section\'s citations.',
-    outcome: 'A clean, journal-style, cross-checked reference list.' },
-  { n: 25, week: 4, title: 'Conference slides and posters',
-    session: 'For your next talk or poster, AI-design tools produce presentation-ready material in minutes. Canva\'s Magic Design, Gamma, and Google Slides + Gemini all cover this. We pick the right one for your specific need.',
+  { n: 18, week: 3, title: 'Data, charts & explaining your statistics',
+    session: 'Your real research data goes into Google Sheets — AI helps you write the formulas you always struggled with and turns tables into publication-quality charts, fast. Then we take your own statistical output and ask AI to explain what the numbers actually mean in words you\'d use in a viva. Always verify against your own understanding.',
+    handson: 'Paste one real dataset into Sheets. Ask Gemini to compute means, run a comparison, and build a chart. Then take one real statistical result and ask AI to explain it in plain English, then in defence-ready language.',
+    homework: 'Chart one more dataset you have on hand, and try explaining one more result you\'ve struggled to put into words for students.',
+    outcome: 'A working data-to-chart workflow, and the confidence to explain your own statistics.' },
+  { n: 19, week: 3, title: 'Evidence and citation-support tools — Consensus and Scite',
+    session: 'Two more instruments for the toolkit: Consensus gives you a yes/no/maybe evidence meter across the literature for a specific claim, and Scite shows whether a paper\'s citations actually support it, contradict it, or just mention it in passing. Both catch things a plain reading misses.',
+    handson: 'Run one real claim from your work through Consensus. Then check one key citation in a paper you\'re relying on using Scite.',
+    homework: 'Check one more claim or citation from your current reading.',
+    outcome: 'Two extra checks that catch weak evidence before it reaches your paper.' },
+  { n: 20, week: 3, title: 'Conference slides and posters with AI',
+    session: 'For your next talk or poster, AI-design tools produce presentation-ready material in minutes. Canva\'s Magic Design, Gamma, and Google Slides + Gemini all cover this — we pick the right one for your specific need and build the real thing.',
     handson: 'Build a real poster or slide set for an upcoming talk or conference.',
     homework: 'Add your own photos and field data.',
-    outcome: 'A conference-ready poster or slide set.' },
-  { n: 26, week: 4, title: 'Interpreting peer-review comments',
-    session: 'When a reviewer sends four pages of critique, the first task is understanding what they actually asked for. AI helps you parse, categorise (must-fix vs. should-fix vs. reviewer\'s opinion), and draft the starter response. Never send the AI\'s draft as-is.',
-    handson: 'If you have a real review, work through it. If not, use a sample. Categorise every comment.',
-    homework: 'Draft a response to one specific comment in your own words.',
-    outcome: 'A structured workflow for the most stressful moment in publishing.' },
-  { n: 27, week: 4, title: 'Abstract and cover letter for submission',
-    session: 'The abstract and cover letter are what editors read first. Compressing a paper to 250 words while keeping the science is a specific writing skill; AI is genuinely helpful here.',
-    handson: 'Write an abstract for one of your papers (real or synthetic). Then draft a cover letter for a target journal.',
-    homework: 'Refine both in your own voice.',
-    outcome: 'Two more submission artefacts, drafted in under an hour.' },
-  { n: 28, week: 4, title: 'Research AI Toolkit — complete',
-    session: 'Recap everything from Weeks 3 and 4. Your personal Research AI Toolkit — search, read, extract, cite, draft, polish, chart, present, respond, submit — is now assembled. We name each tool and its role, and save the playbook.',
-    handson: 'Walk through your toolkit end to end, explaining each tool\'s role in your own words.',
-    homework: 'Rest well tonight. Half the program is behind you.',
-    outcome: 'A named, saved, personal Research AI Toolkit.' },
+    outcome: 'A conference-ready poster or slide set, built the same afternoon.' },
+  { n: 21, week: 3, title: 'Citations, polish & your Research AI Toolkit — complete',
+    session: 'Grammarly for grammar, AI for structural restructuring, and cross-checking references against Zotero — the reference list is where papers get rejected, so we make yours bulletproof. Then one real section — search, read, extract, draft, cite, polish — runs through the entire pipeline in one go, and your personal Research AI Toolkit is named, assembled, and saved.',
+    handson: 'Run yesterday\'s draft through Grammarly, then an AI restructuring pass. Cross-check its reference list against Zotero. Finish with the full pipeline, one section, one paper, one hour.',
+    homework: 'Rest. You\'ve just done in an hour what used to take a week.',
+    outcome: 'A named, saved, personal Research AI Toolkit — and proof the pipeline works.' },
 
-  // WEEK 5 — No-Code App Foundations (Days 29-35)
-  { n: 29, week: 5, title: 'What a database really is',
-    session: 'Every app in the world sits on top of a database. A database, at heart, is a very well-kept register — rows for things, columns for their attributes. We build your first proper one, in Google Sheets, the right way.',
-    handson: 'Build a clean Google Sheet for one thing you track — projects, students, seeds. Ten well-designed rows and columns.',
-    homework: 'Add ten real rows of sample data.',
-    outcome: 'A database that any no-code tool can turn into an app.' },
-  { n: 30, week: 5, title: 'Meet AppSheet',
-    session: 'Point AppSheet at yesterday\'s spreadsheet. Watch it generate a working iOS and Android app in ten seconds. This is the moment where things stop feeling impossible.',
-    handson: 'Connect AppSheet to your sheet. Auto-generate the app. Open it on your phone.',
-    homework: 'Open the app on your phone and add three entries through it.',
-    outcome: 'Your first working app, running on your phone.' },
-  { n: 31, week: 5, title: 'Customising views and forms',
-    session: 'The auto-generated app is a starting point. Now we tailor: which fields show where, which are required, which are hidden, how the form flows. Small changes; big usability wins.',
-    handson: 'Customise the form and detail views for your app — remove clutter, add labels, set required fields.',
-    homework: 'Add five more real entries using your refined form.',
-    outcome: 'An app that fits how you actually work.' },
-  { n: 32, week: 5, title: 'Roles and simple rules',
-    session: 'Not everyone needs to see everything. Set up who can view, who can edit, who can only add. Simple role-based access — the first step towards a tool a whole team can use safely.',
-    handson: 'Configure two roles in your app — one for you, one for a colleague. Test what each can and can\'t do.',
-    homework: 'Explain the two roles in your own words to Chinmay tomorrow.',
-    outcome: 'Understanding of how apps handle multiple users safely.' },
-  { n: 33, week: 5, title: 'Photos and file attachments in your app',
-    session: 'Uploading photos from the phone camera directly into your app database. Storing PDFs. Displaying image galleries. Critical for horticulture — every field visit produces evidence you\'ll want captured, not just noted.',
-    handson: 'Add an image column to your practice app. Upload three photos from your phone through the app itself.',
-    homework: 'Add three more real photos with captions.',
-    outcome: 'An app that captures the visual world, not just text.' },
-  { n: 34, week: 5, title: 'Charts and reports inside AppSheet',
-    session: 'Chart views built into the app itself, PDF report generation from a template, exporting data to Sheets or Drive. Now your app doesn\'t just collect data — it presents it.',
-    handson: 'Add a chart view to your practice app. Generate a PDF report from your data.',
-    homework: 'Share the PDF with yourself over email.',
-    outcome: 'An app that produces reports on demand.' },
-  { n: 35, week: 5, title: 'Mini-project — one small app, start to finish',
-    session: 'Build a small, low-stakes app end to end — a faculty directory, a seed inventory, an equipment tracker. Something you\'ll actually use, small enough to finish in one session.',
-    handson: 'Pick one small use case. Build it, style it, install it on your phone.',
-    homework: 'Use it once, for real, before our next session.',
-    outcome: 'A tiny working app you built, use, and understand.' },
-
-  // WEEK 6 — Building the Real PIMS App (Days 36-42)
-  { n: 36, week: 6, title: 'Requirements — what should PIMS really track?',
+  // WEEK 4
+  { n: 22, week: 4, title: 'What building a real app actually involves',
+    session: 'Every app you\'ve ever used — email, banking, even a spreadsheet — is built from three layers: something you see and touch (the frontend), something that thinks and reacts (the backend), and somewhere the data lives (the database). We demystify all three using an analogy from your own world — a nursery, where the display beds are the frontend, the greenhouse routines are the backend, and the seed register is the database — before touching any tool.',
+    handson: 'Sketch, on paper, what the frontend, backend, and database of your real PIMS app would each need to do.',
+    homework: 'Think of one more example from your own life that maps onto these three layers.',
+    outcome: 'A clear mental model of what "building an app" actually means, before writing anything.' },
+  { n: 23, week: 4, title: 'Meet your AI coding partner — Claude Code',
+    session: 'Claude Code writes real, working code from plain-English instructions — you describe what you want, it builds it, you see it run. We set it up together and build your very first real screen: a simple page that shows a message and a button, live in the browser.',
+    handson: 'Install and set up Claude Code. Describe one simple screen in plain English and watch it get built, live.',
+    homework: 'Change one word of your instruction and ask for the screen again — notice what changes.',
+    outcome: 'A working AI coding tool, and proof that plain English can produce real, running software.' },
+  { n: 24, week: 4, title: 'Setting up your project — GitHub for version control',
+    session: 'GitHub is where your code lives permanently and safely — every change saved, nothing ever truly lost. Think of it as a lab notebook that remembers every version of every experiment. We create your first repository and make your first commit.',
+    handson: 'Create a GitHub account and your first repository. Push your Day 23 project to it and make your first commit.',
+    homework: 'Make one small change to your project and commit it, so you\'ve done the save-a-version habit twice.',
+    outcome: 'Your code, permanently saved and versioned — the same safety net professional developers rely on.' },
+  { n: 25, week: 4, title: 'Meet Supabase — your app\'s database in the cloud',
+    session: 'Supabase is where your real data will live — projects, people, tasks — a proper cloud database built for real applications, not a spreadsheet pretending to be one. We create your project and your first real table together.',
+    handson: 'Create a Supabase project. Build one real table with proper columns and add three real rows of sample data.',
+    homework: 'Add five more real rows to your table before our next session.',
+    outcome: 'A real, live cloud database — the true foundation your PIMS app will sit on.' },
+  { n: 26, week: 4, title: 'Requirements — what should PIMS really track?',
     session: 'The most important hour of the app-building weeks. Together, we define — in your words — exactly what your PIMS-style app should track. Projects, principal investigators, budget, timeline, status, deliverables. No feature we haven\'t justified.',
     handson: 'Write down, together, exactly what your app must do. What it must not do. Who will use it.',
     homework: 'List three real projects to use as sample data.',
     outcome: 'A one-page specification for your real app.' },
-  { n: 37, week: 6, title: 'Building the data structure',
-    session: 'Take yesterday\'s specification and build the actual sheets or tables behind the real app. Get the columns right the first time — restructuring later is expensive.',
-    handson: 'Build the real project sheet: columns for each attribute, data validation rules for each column.',
+  { n: 27, week: 4, title: 'Designing your data model in Supabase',
+    session: 'Take yesterday\'s specification and build the actual tables behind the real app in Supabase. Get the columns right the first time — restructuring later is expensive, even with AI help.',
+    handson: 'Build the real projects table in Supabase: columns for each attribute, sensible data types for each column.',
     homework: 'Add your three real sample projects.',
-    outcome: 'The clean data model behind your PIMS app.' },
-  { n: 38, week: 6, title: 'The core screens — add, edit, view',
-    session: 'The forms that let you add a new project, edit an existing one, view its details. Every app in the world has these three screens — get them right and everything else is easier.',
-    handson: 'Design the add-project form, the edit form, and the detail view.',
+    outcome: 'The clean, real data model behind your PIMS app.' },
+  { n: 28, week: 4, title: 'Your first real screens — add, edit, view',
+    session: 'Now we connect the dots: ask Claude Code to build the screens that let you add a new project, edit an existing one, and view its details — reading from and writing to your real Supabase table. Every app in the world has these three screens; get them right and everything else is easier.',
+    handson: 'Ask your AI coding partner to build an add-project form, an edit form, and a detail view, connected to your real Supabase table.',
     homework: 'Update one real project\'s status through the app.',
-    outcome: 'A working add/edit/view flow for real projects.' },
-  { n: 39, week: 6, title: 'Dashboards — projects due this month',
-    session: 'A dashboard is a filtered view that answers a question you ask often. "Projects due this month." "Projects over budget." "Projects I need to follow up on this week." We build the three most useful dashboards for your work.',
-    handson: 'Build three real dashboard views based on your actual questions.',
+    outcome: 'A working add/edit/view flow, backed by a real database — your app is genuinely alive.' },
+
+  // WEEK 5
+  { n: 29, week: 5, title: 'Dashboards — projects due this month',
+    session: 'A dashboard is a filtered view that answers a question you ask often. "Projects due this month." "Projects over budget." "Projects I need to follow up on this week." We ask Claude Code to build the three most useful dashboards for your real work.',
+    handson: 'Build three real dashboard views based on your actual questions, querying your real Supabase data.',
     homework: 'Check the dashboards daily until our next session.',
     outcome: 'A PIMS app that answers your recurring questions instantly.' },
-  { n: 40, week: 6, title: 'Linking sheets — the moment your app becomes relational',
-    session: 'Real apps have relationships. Projects have team members. Projects have milestones. Projects have deliverables. We set up "Ref" columns in AppSheet, and suddenly each project screen shows everything connected to it.',
-    handson: 'Add a "Team Members" sheet. Link it to Projects via a Ref column. Watch the detail view transform.',
-    homework: 'Add three real team members and link each to one project.',
-    outcome: 'A relational data model — the shape of every real app.' },
-  { n: 41, week: 6, title: 'Search, filter, sort — making the app fast to use',
-    session: 'The difference between an app people use and an app people avoid is often two seconds of friction. Global search, saved filters, smart default sort orders. Small refinements that transform the daily experience.',
-    handson: 'Add filter chips to your PIMS. Configure the default sort. Test on your phone.',
-    homework: 'Use one filter for a real query.',
-    outcome: 'An app that answers your questions in two taps.' },
-  { n: 42, week: 6, title: 'Midpoint demo — the app, with real data',
-    session: 'Test the whole app together with your real project entries. Find what works, note what doesn\'t, plan the polish for next week. Small celebration moment: this is the halfway mark of the build.',
-    handson: 'Full walkthrough of your real app with real data. Note down every glitch, however small.',
-    homework: 'Show it to one trusted colleague informally, and note their reaction.',
-    outcome: 'A working PIMS prototype, tested against real projects.' },
-
-  // WEEK 7 — Polish + Go Mobile (Days 43-49)
-  { n: 43, week: 7, title: 'Styling and branding',
-    session: 'The app should feel like yours. Choose a colour palette, add a logo, set the app icon. Small design details make the difference between a tool people use and a tool people avoid.',
-    handson: 'Apply a colour scheme, upload a logo, set an app icon that reflects your work.',
+  { n: 30, week: 5, title: 'Linking related data — projects, people, and tasks',
+    session: 'Real work is relational: a project has a principal investigator, a project has tasks, a task has a due date. We add a people table and a tasks table in Supabase and connect them properly to your projects table, the way a real database should work.',
+    handson: 'Create a people table and a tasks table in Supabase. Link them to your projects table and test that updating one shows up correctly in the other.',
+    homework: 'Add two more real relationships you know your app will need.',
+    outcome: 'A properly connected data model, not just one flat table.' },
+  { n: 31, week: 5, title: 'Notes, attachments, and file uploads',
+    session: 'A project record is more useful with a photo, a PDF, or a quick note attached. We add file storage and notes fields to your PIMS app using Supabase Storage, so every record can carry its own evidence.',
+    handson: 'Add a notes field and a file-upload field to your project screen. Attach one real photo or document to a real entry.',
+    homework: 'Attach one more real file to an existing project before our next session.',
+    outcome: 'A project record that holds context, not just numbers.' },
+  { n: 32, week: 5, title: 'Styling and branding',
+    session: 'The app should feel like yours. Choose a colour palette, add a logo, refine the layout. Small design details make the difference between a tool people use and a tool people avoid — and Claude Code can apply all of it from a plain-English description.',
+    handson: 'Describe a colour scheme and layout style to your AI coding partner. Add a logo and refine the look of your real screens.',
     homework: 'Show it to one colleague and get their honest reaction.',
     outcome: 'An app that looks and feels professional.' },
-  { n: 44, week: 7, title: 'Automations — the app that emails you',
-    session: 'The magic of modern app platforms: automations. An email that goes out a week before a deadline. A weekly digest of project status. A notification when something changes. Set up the two automations that will genuinely save you time.',
-    handson: 'Configure a deadline-reminder email that fires seven days before any project due date.',
-    homework: 'Let one automation fire, for real, and confirm it arrived.',
-    outcome: 'An app that works even when you\'re not looking at it.' },
-  { n: 45, week: 7, title: 'Testing with real data — finding the rough edges',
-    session: 'Stress-test the app with your real data. What breaks when you have twenty projects? Fifty? What happens if two attributes conflict? Fix issues together, one at a time.',
+  { n: 33, week: 5, title: 'Making it mobile-friendly',
+    session: 'Most of your real use will happen on your phone, in the field or between meetings — so the app needs to work beautifully on a small screen, not just a laptop. We make every screen responsive and test it properly on your phone.',
+    handson: 'Open your real app on your phone. Ask your AI coding partner to fix anything that doesn\'t fit or work well on the smaller screen.',
+    homework: 'Use the app on your phone once for a real task before our next session.',
+    outcome: 'An app that works as well in your hand as it does on your laptop.' },
+  { n: 34, week: 5, title: 'Testing with real data — finding the rough edges',
+    session: 'Stress-test the app with your real data. What breaks when you have twenty projects? Fifty? What happens if two attributes conflict? Fix issues together, one at a time, with your AI coding partner.',
     handson: 'Add fifteen more real projects. Find and fix every glitch that comes up.',
     homework: 'Log any bug you find in the next twenty-four hours.',
     outcome: 'A hardened, tested app that behaves under real load.' },
-  { n: 46, week: 7, title: 'Backup and data safety',
-    session: 'Your app is your data, and your data is your work. Regular backups, export routines, and understanding what happens if AppSheet or Sheets ever goes down. This is the boring session that saves you catastrophically one day.',
-    handson: 'Set up a weekly automated backup of your Google Sheet to Drive. Verify the backup by opening the copy.',
-    homework: 'Note the backup location. Add a reminder to check it monthly.',
-    outcome: 'A backup routine that means you can never truly lose your data.' },
-  { n: 47, week: 7, title: 'Sharing with a colleague — permissions in practice',
-    session: 'The moment you invite one colleague, everything changes. Permissions become real. Testing what they can and can\'t see becomes essential. We invite Chinmay (or a trusted colleague) and stress-test the roles you configured in Week 5.',
-    handson: 'Send an invite. Watch what your colleague sees. Fix any surprises together.',
-    homework: 'Have them try to add or edit something, and confirm the roles behave correctly.',
-    outcome: 'A shared app you can confidently roll out to a small team.' },
-  { n: 48, week: 7, title: 'Installing on your phone — for real',
-    session: 'Share the app with yourself. Open it on your phone. Add it as a home-screen icon. From now on it opens like any other app. The moment the entire program has been building towards.',
-    handson: 'Install as a progressive web app. Test all core flows from your phone alone.',
-    homework: 'Use the app once from your phone, without Chinmay watching.',
-    outcome: 'The app is on your phone, in your hand, working.' },
-  { n: 49, week: 7, title: 'Full demo — the mobile app and the PIMS project, together',
-    session: 'Both stated goals — a mobile app and a PIMS-style project — land together in one session. Full walkthrough, with real data, on your phone. Celebrate what you\'ve built.',
-    handson: 'Complete run-through of the finished app, top to bottom, from the phone.',
-    homework: 'Sit with it. Notice what feels good.',
-    outcome: 'A working, installed, polished PIMS mobile app.' },
+  { n: 35, week: 5, title: 'Full build demo — the PIMS web app, with real data',
+    session: 'Test the whole app together with your real project entries, start to finish. Find what works, note what doesn\'t, and celebrate: the building is done. What\'s left is making it public and polishing the final details.',
+    handson: 'Full walkthrough of your real app with real data, on both laptop and phone. Note down every glitch, however small.',
+    homework: 'Show it to one trusted colleague informally, and note their reaction.',
+    outcome: 'A complete, working PIMS prototype, tested against real projects.' },
 
-  // WEEK 8 — ML + AI-Coding Preview (Days 50-56)
-  { n: 50, week: 8, title: 'Meet Teachable Machine',
-    session: 'A first, hands-on experience with training a real machine-learning model — using your own photos of healthy and stressed leaves. No code. In the browser. Ten minutes to a working classifier.',
-    handson: 'Train a two-class image classifier — say, healthy vs. stressed leaf — using twenty photos of each.',
-    homework: 'Take fifteen more reference photos to improve the model.',
-    outcome: 'A working, trained model that you built.' },
-  { n: 51, week: 8, title: 'Testing and refining your model',
-    session: 'The model is only as good as the photos it saw. We test it against fresh photos it\'s never seen, learn where it fails, and improve it. This is machine learning\'s core rhythm: train, test, refine.',
-    handson: 'Test the model with ten new photos. Note where it\'s wrong. Retrain with more examples.',
-    homework: 'Test it on a colleague\'s photos, unassisted.',
-    outcome: 'A stronger classifier — and understanding of how training data shapes results.' },
-  { n: 52, week: 8, title: 'Training data — quality, quantity, and diversity',
-    session: 'Why 20 photos isn\'t enough. What "balanced training data" means. How lighting, angle, background, and season can trip a classifier. This is the single most important lesson in all of applied ML.',
-    handson: 'Deliberately add photos that break your model — different lighting, different angles. Watch accuracy drop. Then rebalance.',
-    homework: 'Take ten diverse photos in different conditions and retest.',
-    outcome: 'The intuition every ML paper you read from here on will rely on.' },
-  { n: 53, week: 8, title: 'A peek at AI-assisted coding',
-    session: 'A demonstration — not something you need to master — of what AI-assisted coding tools like Claude Code and Cursor can now do. Chinmay describes a small custom feature in plain English; the tool builds it. This is where software is going.',
-    handson: 'Describe one feature you\'d want next in your app. Watch it get built.',
-    homework: 'Note one thing you\'d never thought to ask for that now feels possible.',
-    outcome: 'A grounded sense of what "AI coding" actually looks like in 2026.' },
-  { n: 54, week: 8, title: 'Connecting the dots — from classifier to app',
-    session: 'How would your leaf classifier plug into your PIMS app? Or into a farmer-facing tool? We map out the architecture, without building it, so the possibility feels concrete and not magical.',
-    handson: 'Sketch — on paper — how a classifier would connect to an app someone uses in the field.',
-    homework: 'Sit with the sketch. Consider whether it\'s a Year 2 project.',
-    outcome: 'A clear mental model of how AI pieces fit into real systems.' },
-  { n: 55, week: 8, title: 'AI ethics — accuracy, confidence, and honesty',
-    session: 'AI is often confidently wrong, and the confidence is more dangerous than the wrongness. What that means for you as a scientist, teacher, and mentor. When to trust, when to verify, when to reject. When to disclose in publications. When to warn students.',
-    handson: 'A conversation, not a task. We work through three real cases where you\'d have to decide.',
-    homework: 'Journal one moment this week where AI was confidently wrong or misleading.',
-    outcome: 'A personal ethics framework for AI in academic work.' },
-  { n: 56, week: 8, title: 'What training, testing, and accuracy actually mean',
-    session: 'Using your own trained model as the live example, we unpack the three most important words in machine learning — training data, testing data, accuracy — and why every AI claim in every paper you read revolves around them.',
-    handson: 'Explain, in your own words, what training data is, what testing data is, and what accuracy means.',
-    homework: 'Read one AI paper in horticulture with your new vocabulary and see what changes.',
-    outcome: 'A working vocabulary for reading any AI paper in your field going forward.' },
-
-  // WEEK 9 — Integration & Showcase (Days 57-60)
-  { n: 57, week: 9, title: 'Your personal AI Playbook',
-    session: 'Build the living document that pulls everything together — every tool, every prompt, every workflow from the last eight weeks — in a format you can add to for years. This becomes the artefact you keep long after the program ends.',
+  // WEEK 6
+  { n: 36, week: 6, title: 'Your personal AI Playbook',
+    session: 'Build the living document that pulls everything together — every tool, every prompt, every workflow from the last five weeks — in a format you can add to for years. This becomes the artefact you keep long after the program ends.',
     handson: 'Build the Playbook document — tool list, prompt library, workflow diagrams, personal notes.',
     homework: 'Add one thing you specifically want to remember.',
     outcome: 'A durable, personal reference document.' },
-  { n: 58, week: 9, title: 'Full dry run — solo',
-    session: 'A real upcoming paper section, real project entry, real teaching prep — completed by you, alone, while Chinmay watches quietly. This is the final rehearsal before the showcase.',
-    handson: 'Complete one real end-to-end task from your actual work, using only your Playbook.',
-    homework: 'Note the two things that felt hardest, so we address them tomorrow.',
-    outcome: 'Confirmation that you can operate solo.' },
-  { n: 59, week: 9, title: 'Prep and rehearse the showcase',
-    session: 'Prepare the fifteen-minute demo for your department or HOD. What to show first, what to emphasise, what questions to expect. Rehearse the flow twice.',
-    handson: 'Prepare the demo. Practice it twice — once slow, once at real pace.',
-    homework: 'One quiet run-through before bed.',
+  { n: 37, week: 6, title: 'Publishing your code — GitHub, properly',
+    session: 'Your code has been saving to GitHub all along — today we make sure it\'s properly organised, documented, and ready for the world to see (or just for future-you to understand). A clean repository is a gift to your future self.',
+    handson: 'Tidy your GitHub repository: a clear project name, a short description, and a final commit of your finished app.',
+    homework: 'None. Sit with what you\'ve built.',
+    outcome: 'A clean, professional, permanent home for your app\'s code.' },
+  { n: 38, week: 6, title: 'Going live — deploying with Vercel',
+    session: 'The moment the entire program has been building towards: your app leaves your laptop and becomes a real, live website with its own address, reachable from anywhere. Vercel connects directly to your GitHub repository — one click, and it\'s public.',
+    handson: 'Connect your GitHub repository to Vercel and deploy your app. Open the live link on your phone.',
+    homework: 'Send the live link to yourself and open it from a different device.',
+    outcome: 'Your app, live on the internet, with a real address of its own.' },
+  { n: 39, week: 6, title: 'Supabase in production — security and real data',
+    session: 'A live app needs its data properly protected — who can see what, who can change what. We set up basic security rules in Supabase so your real project data is safe now that the app is public, and reconfirm everything still works end to end.',
+    handson: 'Set up basic access rules on your Supabase tables. Test the live app end to end to confirm everything still works.',
+    homework: 'Use the live app once for a real task before our next session.',
+    outcome: 'A live app with real data that\'s actually safe to use.' },
+  { n: 40, week: 6, title: 'Full dry run — solo',
+    session: 'A real upcoming paper section, real project entry, real teaching prep — completed by you, alone, on your live deployed app, while Chinmay watches quietly. This is the final rehearsal before the showcase.',
+    handson: 'Complete one real end-to-end task from your actual work, using only your Playbook and your live app.',
+    homework: 'Note the two things that felt hardest.',
+    outcome: 'Confirmation that you can operate solo — on the real, live thing.' },
+  { n: 41, week: 6, title: 'Prep the showcase',
+    session: 'Prepare the fifteen-minute demo for your department or HOD. What to show first, what to emphasise, what questions to expect. Rehearse the flow.',
+    handson: 'Prepare the demo. Practice it once.',
+    homework: 'Rehearse alone tomorrow morning.',
     outcome: 'A prepared, rehearsed demo, ready to deliver.' },
-  { n: 60, week: 9, title: 'Final showcase, feedback, and what\'s next',
-    session: 'The final session. You deliver the showcase (if you\'ve chosen to). Then we sit together for the honest post-mortem: what worked, what was hard, what you want to explore independently, and what ongoing support could look like — or not. Your choice.',
-    handson: 'Deliver the showcase. Then a candid conversation about the sixty days, and about what comes next.',
+  { n: 42, week: 6, title: 'The final showcase, feedback, and what\'s next',
+    session: 'The day you deliver the showcase to your department, if you\'ve chosen to — Chinmay present as support only. Then, together: what worked, what was hard, what you want to explore independently, and what ongoing support could look like.',
+    handson: 'Deliver the showcase. Then a candid conversation about the six weeks, and about what happens next.',
     homework: 'None. You\'ve completed the program.',
-    outcome: 'A public demonstration, a personal plan, and a certificate of completion.' }
+    outcome: 'A public demonstration of everything you\'ve built, and a clear personal plan for what comes next.' }
 ];
 
 const TOOL_GROUPS = [
@@ -2245,18 +1858,10 @@ const TOOL_GROUPS = [
   {
     label: '/ FOR BUILDING YOUR APP',
     tools: [
-      { name: 'Google Sheets', desc: 'The database behind your app. Free with any Google account.', price: 'Free', link: 'sheets.google.com' },
-      { name: 'AppSheet', desc: 'The no-code builder. Generates iOS + Android apps from a spreadsheet.', price: 'Free trial · $5/user/mo', link: 'appsheet.com' },
-      { name: 'Glide', desc: 'An alternative to AppSheet. Slightly nicer default designs, less customisable.', price: 'Free · Maker $32/mo', link: 'glideapps.com' },
-      { name: 'Softr', desc: 'Turns Airtable databases into apps and portals. Good for client-facing tools.', price: 'Free · Basic $59/mo', link: 'softr.io' }
-    ]
-  },
-  {
-    label: '/ FOR MACHINE LEARNING (NO CODE)',
-    tools: [
-      { name: 'Teachable Machine', desc: 'Train an image, sound, or pose classifier in the browser. No account, no code.', price: 'Free', link: 'teachablemachine.withgoogle.com' },
-      { name: 'Google Colab', desc: 'When you\'re ready for actual code, this is where beginners start. Free GPUs.', price: 'Free · Pro $10/mo', link: 'colab.research.google.com' },
-      { name: 'Hugging Face', desc: 'The community and library of open-source AI models. Free to explore.', price: 'Free', link: 'huggingface.co' }
+      { name: 'Claude Code', desc: 'Your AI coding partner. Writes real, working code from plain-English instructions.', price: 'Free tier · Pro ₹1,700/mo', link: 'claude.com/claude-code' },
+      { name: 'Supabase', desc: 'A real, production-grade cloud database — tables, storage, and security rules.', price: 'Free tier · Pro $25/mo', link: 'supabase.com' },
+      { name: 'GitHub', desc: 'Where your code lives, permanently versioned. Every change saved, nothing lost.', price: 'Free for personal projects', link: 'github.com' },
+      { name: 'Vercel', desc: 'Deploys your app straight from GitHub to a live, public web address.', price: 'Free tier · Pro $20/mo', link: 'vercel.com' }
     ]
   },
   {
@@ -2270,11 +1875,7 @@ const TOOL_GROUPS = [
 ];
 
 const PROMPTS = [
-  // ============================================================
-  // BEGINNER — structurally simple, single-input, one clear task
-  // ============================================================
   {
-    level: 'beginner',
     label: 'FOR WRITING A FORMAL LETTER',
     title: 'Draft a formal official letter',
     body: `You are helping me draft a formal letter.
@@ -2288,7 +1889,6 @@ Length: under 200 words
 Please produce the letter as a single draft I can edit.`
   },
   {
-    level: 'beginner',
     label: 'FOR REPLYING TO A LONG EMAIL',
     title: 'Reply to a long email',
     body: `I received this email. Read it, then draft a warm one-paragraph reply that:
@@ -2301,127 +1901,6 @@ Keep it under 100 words. My tone is friendly-formal.
 [paste the full email here]`
   },
   {
-    level: 'beginner',
-    label: 'FOR ORGANISING YOUR WEEK',
-    title: 'Turn a messy list into a weekly plan',
-    body: `Here is everything I need to do this week, in no order:
-
-[paste your list]
-
-Please:
-1. Group items into: urgent, important, routine, delegate
-2. Assign each to a specific day across the week
-3. Leave one afternoon light for reflection or catch-up
-4. Flag any conflicts you notice
-
-Present as a simple day-by-day table.`
-  },
-  {
-    level: 'beginner',
-    label: 'FOR TRANSLATION',
-    title: 'Translate Kannada ↔ English',
-    body: `Please translate the following [English/Kannada] text into [Kannada/English].
-
-Text: [paste text]
-
-Rules:
-- Keep the meaning exact
-- Use the tone the reader would expect: [farmers / students / a colleague / general readers]
-- If a word doesn't have a natural direct translation, add a short note in brackets explaining what I intended
-- Do not add new content
-
-Give me one clean translation.`
-  },
-  {
-    level: 'beginner',
-    label: 'FOR REPHRASING',
-    title: 'Rephrase a rough note formally',
-    body: `Please rewrite the following note in a formal, professional tone suitable for [an official email / a university notice / a report / a letter to a senior].
-
-Note: [paste your rough text]
-
-Rules:
-- Keep every fact the same
-- Use complete sentences and fix grammar
-- Do not add new information
-- Return one clean version, ready to send`
-  },
-  {
-    level: 'beginner',
-    label: 'FOR QUICK SUMMARIES',
-    title: 'Summarise a short article in bullets',
-    body: `Please read the article/text below and give me:
-
-- 3 bullet points capturing the key ideas
-- 1 sentence on whether this is worth reading in full
-- Any factual claim I should verify separately
-
-[paste article or link]
-
-Keep bullets under 20 words each.`
-  },
-  {
-    level: 'beginner',
-    label: 'FOR EXPLAINING TERMS',
-    title: 'Explain a term in plain language',
-    body: `Please explain the term "[term you want explained]" in three ways:
-
-1. In one sentence, as if to a first-year undergraduate student
-2. In three sentences, with an example from horticulture / agriculture
-3. In two sentences, as if to a farmer with no formal science background
-
-Do not use technical jargon in explanations 1 and 3.`
-  },
-  {
-    level: 'beginner',
-    label: 'FOR GRAMMAR-ONLY EDITS',
-    title: 'Fix grammar without changing style',
-    body: `Please correct the grammar and punctuation in the following paragraph.
-
-Rules:
-- Fix errors only — do not rewrite for style
-- Keep my voice and word choices unless they are actually incorrect
-- Return only the corrected paragraph, no explanation, no flags
-
-[paste paragraph]`
-  },
-  {
-    level: 'beginner',
-    label: 'FOR A TONE-SPECIFIC REPLY',
-    title: 'Draft a message reply with a specific tone',
-    body: `I need to reply to the following message.
-
-Their message: [paste]
-
-My relationship to sender: [colleague / senior / student / vendor / relative]
-Tone I want: [warm / firm / neutral / apologetic / celebratory]
-Length: [1 line / 2-3 sentences / a short paragraph]
-Facts I must include: [list, if any]
-
-Please draft one reply I can send with light edits.`
-  },
-  {
-    level: 'beginner',
-    label: 'FOR CHECKING BEFORE SENDING',
-    title: 'Check my email tone before I send it',
-    body: `Before I send this email, please review it and tell me:
-
-1. Does the tone match my relationship with the recipient? [state relationship]
-2. Are there any sentences that could be misread?
-3. Are there any sentences longer than 25 words that should be broken up?
-4. Is there anything that comes across as too soft or too sharp?
-5. What would you change, and why?
-
-Do NOT rewrite the email. Just give me flags and suggestions.
-
-[paste email]`
-  },
-
-  // ============================================================
-  // INTERMEDIATE — multi-input, structured multi-part output
-  // ============================================================
-  {
-    level: 'intermediate',
     label: 'FOR SUMMARISING A PAPER',
     title: 'Summarise a research paper',
     body: `I've uploaded a research paper. Please give me:
@@ -2435,152 +1914,6 @@ Do NOT rewrite the email. Just give me flags and suggestions.
 Base every answer only on the uploaded paper.`
   },
   {
-    level: 'intermediate',
-    label: 'FOR SIMPLIFYING CONTENT',
-    title: 'Translate dense content for a new audience',
-    body: `Here is a paragraph from a research paper.
-
-[paste the paragraph]
-
-Please produce three versions:
-1. For a first-year undergraduate student (150 words, plain vocabulary)
-2. For a farmer with a school-level education (100 words, no jargon at all)
-3. For a policy-maker (150 words, focus on implications)
-
-Keep every fact accurate.`
-  },
-  {
-    level: 'intermediate',
-    label: 'FOR PREPARING A LECTURE',
-    title: 'Outline a one-hour lecture',
-    body: `I'm preparing a one-hour lecture on [topic] for [audience level, e.g., second-year B.Sc Horticulture students].
-
-Please produce:
-1. A 5-minute opening hook that anchors the topic to something students already care about
-2. A 3-point outline for the main body, each with a suggested time allocation
-3. Two discussion questions for the last ten minutes
-4. Three suggested visuals or diagrams
-
-I will add my own examples and data.`
-  },
-  {
-    level: 'intermediate',
-    label: 'FOR EXPLAINING STATISTICS',
-    title: 'Explain a statistical result in plain English',
-    body: `Here is a statistical output from my analysis:
-
-[paste the numbers]
-
-Please explain, in three parts:
-1. What test this is and what it tells us (2 sentences)
-2. What the specific values mean, in plain English (3 sentences)
-3. How I should describe this in the viva, if a student asks (2 sentences)
-
-Assume the reader has undergraduate-level statistics knowledge.`
-  },
-  {
-    level: 'intermediate',
-    label: 'FOR GRAMMAR + STRUCTURE',
-    title: 'Two-pass polish on a paragraph',
-    body: `Please do a two-pass edit on this paragraph:
-
-Pass 1 — grammar, punctuation, small errors only. Show me the corrected version.
-
-Pass 2 — restructure for clarity and flow, without changing meaning. Show me the restructured version.
-
-Do not add new content in either pass.
-
-[paste the paragraph]`
-  },
-  {
-    level: 'intermediate',
-    label: 'FOR COMPARING METHODS',
-    title: 'Compare two research methods',
-    body: `Please help me compare two research methods for the following question.
-
-Research question: [state briefly]
-
-Method A: [describe]
-Method B: [describe]
-
-Compare them on:
-1. Suitability for my research question
-2. Data requirements (type, volume, availability)
-3. Time and cost
-4. Statistical rigour
-5. Ability to establish causation vs. correlation
-6. Common pitfalls in horticultural research
-7. Which method has stronger recent literature support
-
-Present as a comparison table, then a one-paragraph recommendation. Ask any clarifying questions before answering.`
-  },
-  {
-    level: 'intermediate',
-    label: 'FOR RUNNING A WORKSHOP',
-    title: 'Draft a workshop agenda',
-    body: `I'm organising a workshop titled "[title]" for [audience — e.g., 30 farmers / 25 postgraduate students / department faculty]. It runs [duration — e.g., 3 hours / half-day / full-day].
-
-Please draft:
-1. A time-blocked agenda with topics, activity types (talk, hands-on, discussion), and duration for each
-2. Materials and tools I need to prepare in advance
-3. Three discussion questions for participants
-4. A one-page brief I can share with participants before the workshop
-5. Follow-up actions I should take after it ends
-
-Adult-learning rule: no more than 45 minutes of continuous talking, hands-on or discussion activity every hour.`
-  },
-  {
-    level: 'intermediate',
-    label: 'FOR STAKEHOLDER MEETINGS',
-    title: 'Prepare an FAQ for a stakeholder meeting',
-    body: `I have an upcoming meeting with [stakeholders — e.g., the university syndicate / a funding body / a farmer collective] about [topic].
-
-Please prepare:
-1. Ten likely questions they will ask, ranked by likelihood
-2. A one-paragraph honest answer for each
-3. Three questions I should ask them, to shape the discussion in the direction I want
-4. Two of their concerns that I should acknowledge upfront
-5. What I should have ready to show — data, examples, references
-
-Assume the stakeholders are informed but skeptical.`
-  },
-  {
-    level: 'intermediate',
-    label: 'FOR FARMER OUTREACH',
-    title: 'Draft a WhatsApp broadcast to farmers',
-    body: `Please draft a WhatsApp broadcast for farmers in [region], in [Kannada / English / both — bilingual with Kannada first].
-
-Topic: [what you want to communicate — e.g., a new pest advisory / a training workshop / a subsidy scheme]
-Call to action: [what you want them to do]
-Length: 2-3 short paragraphs, readable on a phone screen
-Tone: warm, respectful, direct
-Must include: contact number [xxx], deadline [xxx], one concrete local example
-
-No jargon. Short sentences. Numbers where possible.`
-  },
-  {
-    level: 'intermediate',
-    label: 'FOR ANALYSING A DATASET',
-    title: 'Analyse data and suggest chart types',
-    body: `I have the following dataset:
-
-[paste the dataset — first row should be headers]
-
-Please help me by:
-1. Describing what this data represents in two sentences
-2. Suggesting three different charts that would surface important patterns
-3. For each chart: chart type, x-axis, y-axis, series, and what pattern it would reveal
-4. Any data cleaning issues you notice — missing values, outliers, inconsistent formats
-5. One question this data does NOT answer, that a reviewer might ask
-
-Assume this is for a peer-reviewed publication in horticulture or agricultural sciences.`
-  },
-
-  // ============================================================
-  // ADVANCED — research-grade, high-stakes, multi-turn
-  // ============================================================
-  {
-    level: 'advanced',
     label: 'FOR DRAFTING A LIT-REVIEW SECTION',
     title: 'Draft a literature-review section',
     body: `I'm writing the literature review for a paper on [your topic].
@@ -2596,7 +1929,89 @@ Use formal academic tone. I will rewrite this in my own voice.
 [paste your five notes]`
   },
   {
-    level: 'advanced',
+    label: 'FOR EXPLAINING STATISTICS',
+    title: 'Explain a statistical result in plain English',
+    body: `Here is a statistical output from my analysis:
+
+[paste the numbers]
+
+Please explain, in three parts:
+1. What test this is and what it tells us (2 sentences)
+2. What the specific values mean, in plain English (3 sentences)
+3. How I should describe this in the viva, if a student asks (2 sentences)
+
+Assume the reader has undergraduate-level statistics knowledge.`
+  },
+  {
+    label: 'FOR SIMPLIFYING CONTENT',
+    title: 'Translate dense content for a new audience',
+    body: `Here is a paragraph from a research paper.
+
+[paste the paragraph]
+
+Please produce three versions:
+1. For a first-year undergraduate student (150 words, plain vocabulary)
+2. For a farmer with a school-level education (100 words, no jargon at all)
+3. For a policy-maker (150 words, focus on implications)
+
+Keep every fact accurate.`
+  },
+  {
+    label: 'FOR ORGANISING YOUR WEEK',
+    title: 'Turn a messy list into a weekly plan',
+    body: `Here is everything I need to do this week, in no order:
+
+[paste your list]
+
+Please:
+1. Group items into: urgent, important, routine, delegate
+2. Assign each to a specific day, Mon–Fri
+3. Leave Friday afternoon light for reflection
+4. Flag any conflicts you notice
+
+Present as a simple day-by-day table.`
+  },
+  {
+    label: 'FOR PREPARING A LECTURE',
+    title: 'Outline a one-hour lecture',
+    body: `I'm preparing a one-hour lecture on [topic] for [audience level, e.g., second-year B.Sc Horticulture students].
+
+Please produce:
+1. A 5-minute opening hook that anchors the topic to something students already care about
+2. A 3-point outline for the main body, each with a suggested time allocation
+3. Two discussion questions for the last ten minutes
+4. Three suggested visuals or diagrams
+
+I will add my own examples and data.`
+  },
+  {
+    label: 'FOR GRAMMAR + STRUCTURE',
+    title: 'Two-pass polish on a paragraph',
+    body: `Please do a two-pass edit on this paragraph:
+
+Pass 1 — grammar, punctuation, small errors only. Show me the corrected version.
+
+Pass 2 — restructure for clarity and flow, without changing meaning. Show me the restructured version.
+
+Do not add new content in either pass.
+
+[paste the paragraph]`
+  },
+  {
+    label: 'FOR BUILDING AN APP SPEC',
+    title: 'Draft an app specification',
+    body: `I want to build a small app for [purpose — e.g., tracking research projects in my department].
+
+Please help me define:
+1. The three most important things it must do (must-haves)
+2. The three most important things it should NOT try to do in the first version
+3. The data I need to store (tables and columns in the database)
+4. The three screens a user will need most often
+5. One thing that could go wrong with the data, and how to guard against it
+
+Ask me any questions you need to clarify before answering.`
+  },
+  {
     label: 'FOR PROOF-READING BEFORE SUBMISSION',
     title: 'Final submission checklist',
     body: `I'm about to submit this paper section. Before I do, please check:
@@ -2612,404 +2027,13 @@ Present findings as a numbered list. Do not rewrite — just flag.
 [paste your text]`
   },
   {
-    level: 'advanced',
-    label: 'FOR AN AI-USE DISCLOSURE',
+    label: 'FOR AN AI-USE DISCLOSURE STATEMENT',
     title: 'Draft an AI-use disclosure for a journal',
     body: `I used AI tools while preparing this paper as follows:
 - [tool 1] for [purpose]
 - [tool 2] for [purpose]
 
 Please draft a two-sentence AI-use disclosure statement suitable for a peer-reviewed journal's methods or acknowledgements section. Formal, honest, precise.`
-  },
-  {
-    level: 'advanced',
-    label: 'FOR DESIGNING A STUDY',
-    title: 'Design a rigorous research methodology',
-    body: `I want to design a rigorous methodology for the following research question.
-
-Research question: [your specific question]
-Field: horticulture / agricultural sciences
-Available resources: [labs / field sites / duration / team size]
-Constraints: [budget / time / regulatory / other]
-
-Please walk me through:
-1. Most appropriate study design (RCT, quasi-experimental, observational, mixed-methods) with justification
-2. Key variables — independent, dependent, confounders to control for
-3. Sample size estimation, with formula and rough numbers
-4. Randomisation strategy, if applicable
-5. Control and comparator groups
-6. Duration and timing of measurements
-7. Statistical analysis plan
-8. Threats to internal and external validity, with mitigations
-9. Ethical considerations, including any IEC / IAEC approvals needed
-10. Realistic budget categories
-
-Ask any clarifying question before answering. I want a methodology I could defend in a doctoral committee.`
-  },
-  {
-    level: 'advanced',
-    label: 'FOR GRANT PROPOSALS',
-    title: 'Draft a grant proposal narrative',
-    body: `I'm drafting a grant proposal narrative for [funding body — e.g., ICAR / DST / SERB / DBT].
-
-Grant scheme: [name and scope]
-Amount requested: [approximate]
-Duration: [years]
-Research question: [state]
-Preliminary evidence / pilot data: [1-2 sentences]
-Institutional strengths: [1-2 sentences]
-Team: [PI + co-PIs if any]
-
-Please draft a 500-word narrative that:
-1. Opens with the significance of the problem in India / Karnataka / the region
-2. States the research question clearly, with the hypothesis
-3. Positions this work against 2-3 approaches others have tried, and the gap
-4. Presents the methodology briefly (I'll expand it separately)
-5. Describes expected outcomes and their translational impact
-6. Closes with feasibility — why my team, institution, and timeline can deliver
-
-Use formal but jargon-light language. I will rewrite for my own voice.`
-  },
-  {
-    level: 'advanced',
-    label: 'FOR EVIDENCE SYNTHESIS',
-    title: 'Synthesize evidence across multiple papers',
-    body: `I have read the following papers on [research topic]. My notes for each include: reference, main claim, method, sample, key finding, limitation.
-
-[paste your notes]
-
-Please:
-1. Group the papers by their position — supporting X, disputing X, mixed evidence, methodological outliers
-2. Identify the single strongest piece of evidence and the strongest counter-evidence
-3. Highlight where the field has consensus, where it disagrees, and where evidence is thin
-4. Point out any methodological confounders that recur across multiple papers
-5. Suggest 1-2 specific research gaps that my work could address
-6. Draft a 200-word synthesis paragraph I could use in the discussion of my own paper
-
-Be honest — if the evidence is weaker than the authors claim, say so.`
-  },
-  {
-    level: 'advanced',
-    label: 'FOR REVIEWER RESPONSES',
-    title: 'Draft a peer-review response letter',
-    body: `I have received the following peer-review comments on my manuscript.
-
-Manuscript: [title]
-Journal: [name]
-Editor's decision: [major / minor revision / reject-and-resubmit]
-
-Reviewer 1 comments:
-[paste all comments]
-
-Reviewer 2 comments:
-[paste all comments]
-
-Please draft:
-1. A one-paragraph opening letter to the editor
-2. For each comment: a numbered response with (a) my proposed action, (b) the specific text change in the manuscript, and (c) a professional but firm response if I need to disagree
-3. Categorise each comment as: fully addressed / partially addressed / respectfully declined with reason
-4. Flag any comment that requires new data collection — I need to know before I promise
-5. A closing summary emphasising the improvements the revision made
-
-Respectful but not overly deferential. Reviewer feedback is a dialogue, not a command.`
-  },
-  {
-    level: 'advanced',
-    label: 'FOR JOURNAL SUBMISSION',
-    title: 'Draft an abstract and cover letter',
-    body: `I have completed a manuscript I want to submit to [target journal].
-
-Manuscript title: [title]
-Field: horticulture / agricultural sciences
-Key findings (3-5 bullets, technical):
-[paste]
-
-Methodology (2-3 sentences):
-[paste]
-
-Journal scope: [paste from journal's website]
-Word limit for abstract: [check journal — usually 200-300]
-
-Please draft:
-1. An abstract of exactly [word count] words with this structure: background (2 sentences), objective (1 sentence), methods (2-3 sentences), results (3-4 sentences), conclusion (1-2 sentences)
-2. A cover letter (~300 words) that: introduces the manuscript, explains its fit for the journal, states the main contribution, addresses anticipated concerns (novelty, sample size), and confirms authorship and non-duplicate submission
-
-Match the tone of recent papers in this journal.`
-  },
-  {
-    level: 'advanced',
-    label: 'FOR COURSE DESIGN',
-    title: 'Design a semester curriculum',
-    body: `I need to design a full semester curriculum for "[course name]" at [level: UG / PG / doctoral].
-
-Course code: [code]
-Credits: [n]
-Duration: [weeks]
-Sessions per week: [n hours of lectures + n hours of practicals]
-Prerequisites: [what students already know]
-Programme outcomes it feeds: [list 2-3]
-
-Please design:
-1. A week-by-week topic breakdown (title + 2-3 subtopics per week)
-2. Learning outcomes per week, in Bloom's taxonomy language
-3. Reading list per week — mix of textbooks, papers, open resources (free where possible)
-4. Assessment plan: how each type contributes to grades, with weights
-5. Three case studies / real-world examples threading through the semester
-6. Practical / lab session outline
-7. A 5-question diagnostic quiz for Week 1 to establish baseline
-8. Notes on where AI tools could genuinely help students learn (with integrity guardrails)
-
-Output should be pasteable into the university's course-approval format.`
-  },
-  {
-    level: 'advanced',
-    label: 'FOR STRATEGIC PLANNING',
-    title: 'Build a 3-year research agenda',
-    body: `I need to build a 3-year research agenda that positions me for [career goal — e.g., promotion / a major grant / a leadership role].
-
-Current situation:
-- Publications and themes so far: [summarise]
-- Ongoing projects: [list]
-- Available resources: [labs / students / networks]
-- Key collaborators: [names / institutions]
-- What I don't yet have that I need: [gaps]
-
-Please structure:
-1. A 3-year vision: one paragraph on where I want my research profile to be at end of Year 3
-2. Three research thrusts that build on each other (not a scatter of unrelated topics)
-3. For each thrust: 2-3 specific projects with target papers, funding sources, collaborators
-4. Timeline with quarterly milestones
-5. Publishing targets: number and calibre of journal papers, book chapters, conference presentations
-6. Grant applications with target amounts and deadlines
-7. Student pipeline: how many M.Sc / Ph.D. students each thrust needs
-8. Risks and contingencies if funding or collaborations fall through
-9. A one-line elevator statement about my research identity
-
-Ask clarifying questions before answering. This is strategic, not tactical.`
-  },
-
-  // ============================================================
-  // APP-SCALE — long-form specs producing substantial artefacts
-  // ============================================================
-  {
-    level: 'app-scale',
-    label: 'FOR BUILDING PIMS FROM SCRATCH',
-    title: 'Complete PIMS app specification',
-    body: `Please help me write a complete build-specification for a Project Information Management System (PIMS) for my research portfolio.
-
-CONTEXT
-- User: single professor initially; may share with 2-3 collaborators later
-- Devices: laptop (primary), phone (secondary)
-- Tools: Google Sheets, AppSheet, Google Drive
-- Skill level: no-code, first-time app builder
-- Constraint: must be buildable in ~15 hours of my own effort
-
-REQUIREMENTS
-
-For each section below, please give me:
-- A recommended data schema (columns for a spreadsheet, with types)
-- Necessary views (list, detail, dashboard)
-- Automations that would save real time
-- Roles and permissions
-- Risks / things to avoid in v1
-
-Sections:
-1. Projects — the core entity (attributes, statuses, dependencies)
-2. Principal Investigators & Team Members — how they link to projects
-3. Milestones & Deliverables — with due dates and status
-4. Budget — planned vs. spent, category-wise
-5. Documents & Attachments — proposals, reports, photos
-6. Reminders & Notifications — deadline alerts, weekly digests
-7. Dashboards — the 3 most useful views for daily use
-
-Structure your answer so it can be pasted into a Google Doc as a build-spec. Ask any clarifying questions before beginning.`
-  },
-  {
-    level: 'app-scale',
-    label: 'FOR RESEARCH PORTFOLIO TRACKING',
-    title: 'Research portfolio dashboard specification',
-    body: `Please help me specify a Research Dashboard that gives me an at-a-glance view of my ongoing research portfolio.
-
-CONTEXT
-- User: single professor initially; possibly one collaborator later
-- Devices: laptop (primary), phone (secondary)
-- Tools: Google Sheets, AppSheet, Google Drive
-- Skill level: no-code
-- Goal: reduce the "what's the status of everything" cognitive load
-
-TRACKED ENTITIES
-1. Research Projects — the parent entity
-2. Manuscripts — drafts, under review, published; linked to projects
-3. Grant Applications — planned, submitted, funded, rejected
-4. Conferences — abstract submitted, accepted, attended
-5. Collaborations — active, dormant; with contacts
-6. Students supervised — with thesis topics linked to projects
-7. Data collections / experiments — linked to projects, with status
-
-For each entity, please provide:
-- Suggested columns (name, type, allowed values)
-- Relationships to other entities
-- Views: list, detail, any special "focus" views
-- Filters that would matter (e.g., "manuscripts pending my action")
-- Automations that would save real time
-- A recommended weekly ritual for keeping it current
-
-DASHBOARD LANDING VIEW
-Design the landing screen showing:
-- What needs my attention this week (across all entities)
-- What is stalled and why
-- Recent wins
-- Upcoming external deadlines
-- A "gap map": research thrusts vs. active work
-
-Format: Google Docs-pasteable build-spec. Ask clarifying questions before beginning.`
-  },
-  {
-    level: 'app-scale',
-    label: 'FOR TEACHING WORKLOAD',
-    title: 'Teaching dashboard specification',
-    body: `I want to design a teaching dashboard that helps me manage classes across a semester.
-
-CONTEXT
-- I teach [number] batches / courses per semester
-- Class sizes: [approximate]
-- Types of work: lectures, practical assignments, mid-terms, final exam, term papers
-- Tools: Google Sheets, AppSheet, Google Drive
-- Goal: reduce the "what do I need to do this week for which class" load
-
-Please design a complete specification:
-
-1. DATA STRUCTURE
-   a. Courses (with codes, credits, semester)
-   b. Batches / student groups
-   c. Sessions (topics, dates, status)
-   d. Assessments (weights, dates, submission status)
-   e. Individual students — basic only; no marks stored (link to institutional system for those)
-
-2. VIEWS
-   a. This-week view — what needs my attention now
-   b. Course-detail view
-   c. Assessment tracking view
-   d. Syllabus-progress view — % complete per course
-
-3. AUTOMATIONS
-   a. Weekly digest of upcoming sessions
-   b. Assessment deadline reminders
-   c. Overdue-content flags
-
-4. WHAT NOT TO BUILD IN V1
-   - Individual student marks (institutional system handles this)
-   - Attendance (institutional system)
-   - Anything requiring students to input data
-
-5. WEEKLY RITUAL
-   The 15-minute ritual I should adopt to make this dashboard actually useful.
-
-Ask clarifying questions before answering. Give me the answer as a build-spec.`
-  },
-  {
-    level: 'app-scale',
-    label: 'FOR END-TO-END LITERATURE REVIEW',
-    title: 'Multi-step literature review workflow',
-    body: `I want a complete end-to-end workflow for producing a literature review section, from research question to submission-ready draft. Give me a step-by-step chain of prompts I execute in order.
-
-MY RESEARCH QUESTION: [state]
-TARGET LENGTH OF LIT REVIEW SECTION: [word count]
-TARGET JOURNAL: [name]
-TIME AVAILABLE: [days / weeks]
-
-Please structure as:
-
-STEP 1 — Scoping (Day 1)
-One prompt for Perplexity / Elicit / Semantic Scholar to identify the 30-50 most relevant recent papers. Include what to look for in the results.
-
-STEP 2 — Extraction (Days 2-5)
-One prompt for NotebookLM / Elicit to extract structured data (method, sample, findings, limitations) from each paper into a table.
-
-STEP 3 — Synthesis (Days 6-7)
-One prompt to identify themes, agreements, disagreements, and gaps.
-
-STEP 4 — Outlining (Day 8)
-One prompt to convert the synthesis into a 4-5 subsection outline of the literature review section.
-
-STEP 5 — Drafting (Days 9-12)
-One prompt per subsection to produce a first draft, with citations pointing to specific papers.
-
-STEP 6 — Integrity rewrite (Days 13-14)
-One prompt to help me check the draft for close paraphrasing, missing attributions, unsupported claims.
-
-STEP 7 — Voice pass (Days 15-16)
-One prompt to help me rewrite in my own academic voice while keeping the argument structure.
-
-STEP 8 — Reference cleanup (Day 17)
-One prompt for checking citations against Zotero and journal style.
-
-STEP 9 — Submission polish (Day 18)
-Final grammar, clarity, and structure check.
-
-For each step, include: what to have ready before running the prompt; how to know if the output is good; what to do if it fails.`
-  },
-  {
-    level: 'app-scale',
-    label: 'FOR CONFERENCE TALKS',
-    title: 'Conference talk preparation pipeline',
-    body: `I want a complete pipeline for preparing a conference talk from acceptance to delivery.
-
-CONTEXT
-- Talk title: [title]
-- Conference: [name, location, date]
-- Duration: [minutes, including Q&A]
-- Audience: [technical / mixed / general]
-- Presentation type: [oral / poster / plenary]
-- Related paper: [status — published / in press / draft / none yet]
-
-Please give me a step-by-step chain of prompts and tasks in order:
-
-STEP 1 — Reframe the paper for a talk (2 weeks before)
-STEP 2 — Draft the narrative arc — one story, three acts
-STEP 3 — Build slides in Gamma or Canva
-STEP 4 — Prepare speaker notes with timing per slide
-STEP 5 — Anticipate 8-10 likely audience questions
-STEP 6 — Prepare backup slides for likely deep-dives
-STEP 7 — Rehearse alone, then with a colleague
-STEP 8 — Practical logistics — file backup, adapter, dress, arrival timing
-STEP 9 — Post-talk follow-up — thank-you emails, LinkedIn posts, sharing slides
-
-For each step, provide:
-- One prompt I can run in Claude/ChatGPT
-- Expected output
-- What to check for
-- Estimated time
-
-Also include: what to do if a question stumps me; what to say if a slide doesn't load; how to handle going over time.`
-  },
-  {
-    level: 'app-scale',
-    label: 'FOR A LIFELONG REFERENCE SYSTEM',
-    title: 'Personal knowledge base setup',
-    body: `I want to build a personal knowledge base that captures everything I read, think, teach, and write over the coming years — so I never lose an idea and can find anything I've encountered.
-
-CURRENT STATE
-- Knowledge is scattered across: paper PDFs on desktop, Zotero library, Google Drive folders, WhatsApp notes, physical notebooks, emails
-- Goal: one searchable, organised, personal knowledge base I return to daily
-- Tools available: Google Drive, Zotero, NotebookLM, my phone, laptop
-- Time available for setup: ~10 hours across 2 weeks
-- Time available for maintenance: 15 minutes per day
-
-Please give me a complete setup specification:
-
-1. Folder structure — what goes where, and why
-2. Naming conventions for files and notes
-3. Tagging system — what tags matter, how many to keep
-4. Which tool handles which content type: papers, teaching notes, ideas, contacts, drafts, media, references
-5. Ingest workflow — how new content enters the system
-6. Weekly ritual — the 15 minutes that keep it clean
-7. Monthly review — what to check for
-8. Search workflow — how to find something two years later
-9. Retrieval-augmented setup — how to point NotebookLM at parts of this so I can query it
-10. What NOT to include — where to stop the scope
-
-Give me the answer as a build-spec I can execute in one weekend.`
   }
 ];
 
@@ -3026,10 +2050,10 @@ const GLOSSARY = [
   { term: 'Fine-tuning', def: 'Taking a general-purpose AI model and training it further on specific data for a specific task. Beyond the scope of this program, but worth knowing the word.' },
   { term: 'Token', def: 'How AI tools measure length — roughly three-quarters of a word. Pricing on paid tools is often per million tokens.' },
   { term: 'Context window', def: 'How much you can fit into a single AI conversation. Modern tools handle hundreds of pages; older ones only a few.' },
-  { term: 'No-code / low-code', def: 'Tools that let you build software by clicking, configuring, and describing rather than by writing code. AppSheet is the classic example.' },
+  { term: 'Repository (repo)', def: 'A project\'s folder of code, saved on GitHub with every past version kept. What you push your work to after every real change.' },
+  { term: 'Deploy', def: 'Taking your app from your own laptop and making it live on the internet, at a real public address. What Vercel does for you.' },
   { term: 'API', def: 'A way for one program to talk to another. Beyond your daily use, but useful to know when a developer says "we can connect it via the API."' },
   { term: 'Model', def: 'The trained AI itself — the actual pattern-recognising thing. Claude Opus, ChatGPT-5, and Gemini are all models.' },
-  { term: 'Classifier', def: 'A model whose job is to put things into categories — healthy vs. stressed leaf, spam vs. not-spam. What you\'ll train in Week 8.' },
   { term: 'Semantic search', def: 'Search that matches meaning, not just keywords. Ask "papers about drought tolerance in mango" and it finds them even if the exact phrase doesn\'t appear.' },
   { term: 'RAG (Retrieval-Augmented Generation)', def: 'The technical name for what NotebookLM does — retrieves relevant passages from your documents, then generates an answer grounded in them.' },
   { term: 'Multimodal', def: 'AI that handles more than just text — images, audio, video. Modern tools like Gemini and Claude are all multimodal.' },
@@ -3039,7 +2063,7 @@ const GLOSSARY = [
 const FAQ = [
   {
     q: 'What if I miss a session?',
-    a: 'Resume the next evening from where you left off — do not skip ahead. A missed session is logged, not lost: mark it unfinished in the portal, and we revisit it during the Week 9 review. If you miss more than two in one week, we pause and reset the pace together. Consistency is the goal, but honest catch-up is more valuable than pretending nothing happened.'
+    a: 'The plan has slack built in. It runs every day with no rest days, so a missed session simply slides into the next open evening. Nothing derails.'
   },
   {
     q: 'Do I need to prepare anything before Day 1?',
@@ -3050,32 +2074,32 @@ const FAQ = [
     a: 'For personal work — writing, reading published papers, organising your own projects — the free tools are safe. For anything that involves confidential university data (unpublished research, student marks, personnel information), we\'ll use tools with data-protection guarantees, or handle it locally. Chinmay will flag this any time it becomes relevant.'
   },
   {
-    q: 'Will I be able to do this on my own after 60 days?',
+    q: 'Will I be able to do this on my own after 6 weeks?',
     a: 'Yes. That is the entire point. Every session ends with a "teach-back" where you explain what you did in your own words, and every skill is practised on your real work — so by the end, using these tools feels like using email, not like operating unfamiliar machinery.'
   },
   {
     q: 'What about integrity — is using AI for research ethical?',
-    a: 'This is discussed openly on Day 13. The short answer: AI as a search assistant, reading assistant, and polish assistant is universally accepted and worth disclosing briefly. AI as the author of sentences you didn\'t rewrite in your own voice has crossed a line. When in doubt, disclose more, not less. Every honest journal accepts responsible AI use; every honest journal expects you to say so.'
+    a: 'This is discussed openly on Day 17. The short answer: AI as a search assistant, reading assistant, and polish assistant is universally accepted and worth disclosing briefly. AI as the author of sentences you didn\'t rewrite in your own voice has crossed a line. When in doubt, disclose more, not less. Every honest journal accepts responsible AI use; every honest journal expects you to say so.'
   },
   {
     q: 'How much will it cost me in tools?',
-    a: 'For the entire 60 days: nothing at all is required to be paid. Every exercise uses free tiers. If you fall in love with a particular tool and want the paid tier, it\'s typically ₹800 to ₹1,700 per month — but this is optional, and Chinmay will only ever suggest a paid tier when a specific free-tier limit becomes a real bottleneck for your work.'
+    a: 'For the entire 6 weeks: nothing at all is required to be paid. Every exercise uses free tiers. If you fall in love with a particular tool and want the paid tier, it\'s typically ₹800 to ₹1,700 per month — but this is optional, and Chinmay will only ever suggest a paid tier when a specific free-tier limit becomes a real bottleneck for your work.'
   },
   {
-    q: 'What will "UHS PIMS" actually be by Day 60?',
-    a: 'A working prototype — a real, usable app that tracks the projects you personally supervise, complete with a database, forms, dashboards, and automations. It will be installed on your phone. It will not be a full multi-department institutional deployment on university servers — that\'s a larger project that comes after the prototype has proven its value.'
+    q: 'What will "UHS PIMS" actually be by Day 42?',
+    a: 'A working prototype — a real, usable, coded web app that tracks the projects you personally supervise, complete with a real Supabase database, forms, and dashboards. It will be live on the internet with its own address, and mobile-friendly enough to use comfortably from your phone. It will not be a full multi-department institutional deployment on university servers — that\'s a larger project that comes after the prototype has proven its value.'
   },
   {
     q: 'Can I share this portal with a colleague who wants to learn too?',
     a: 'Yes — the portal is a public reference resource. But the coaching itself is a personal engagement with Chinmay. If a colleague wants to run a similar program, Chinmay can prepare a separate plan for them.'
   },
   {
-    q: 'What if I forget everything after 60 days?',
+    q: 'What if I forget everything after 6 weeks?',
     a: 'You will not, if you keep using the tools. The final week explicitly produces your personal AI Playbook — a living document with every tool, prompt, and workflow — that you keep and add to for years. Skills fade only when they\'re not used; use them once a week and they compound.'
   },
   {
-    q: 'What comes after Day 60?',
-    a: 'That is entirely your choice, discussed openly on Day 60. Options range from nothing formal — you continue independently — to occasional office hours, to a dedicated follow-up project (like hardening the PIMS prototype into a department-wide system). No pressure either way.'
+    q: 'What comes after Day 42?',
+    a: 'That is entirely your choice, discussed openly on Day 42. Options range from nothing formal — you continue independently — to occasional office hours, to a dedicated follow-up project (like hardening the PIMS prototype into a department-wide system). No pressure either way.'
   }
 ];
 
@@ -3111,12 +2135,12 @@ function currentDayNumber() {
   return diffDays; // negative if before start
 }
 
-// Map a calendar-day offset to a session number — 1:1, every day is a session
+// Map a calendar-day offset to a session number — every day counts, no weekend gap
 function calendarOffsetToSession(offset) {
   if (offset < 0) return { status: 'before', session: null, until: -offset };
   const session = offset + 1;
-  if (session > 60) return { status: 'after', session: null };
-  return { status: 'during', session, of: 60 };
+  if (session > 42) return { status: 'after', session: null };
+  return { status: 'during', session, of: 42 };
 }
 
 // --- today widget --------------------------------------------
@@ -3141,14 +2165,14 @@ function renderToday() {
   } else if (state.status === 'after') {
     label.textContent = 'PROGRAM COMPLETE';
     num.textContent = '✓';
-    title.textContent = 'You have completed all 60 sessions. Congratulations.';
+    title.textContent = 'You have completed all 42 sessions. Congratulations.';
     wk.textContent = 'Return here anytime — every session is preserved.';
     hs.textContent = 'Keep using the tools. Once a week, minimum.';
     hw.textContent = 'Add one new thing to your AI Playbook each month.';
   } else {
     const day = DAYS[state.session - 1];
     const week = WEEKS[day.week - 1];
-    label.textContent = `TODAY · SESSION ${pad(day.n)} of 060`;
+    label.textContent = `TODAY · SESSION ${pad(day.n)} of 042`;
     num.textContent = pad(day.n);
     title.textContent = day.title;
     wk.textContent = `Week ${week.n} · ${week.title}`;
@@ -3177,14 +2201,14 @@ function renderRoadmap() {
       }
     },
       el('div', { class: 'wk__head' },
-        el('div', { class: 'wk__num' }, `WEEK ${pad(w.n).slice(-2)} / 09`),
+        el('div', { class: 'wk__num' }, `WEEK ${pad(w.n).slice(-2)} / 06`),
         el('div', { class: 'wk__days' }, w.range)
       ),
       el('h3', { class: 'wk__title' }, w.title),
       el('p', { class: 'wk__desc' }, w.theme),
       el('div', { class: 'wk__foot' },
         el('div', { class: 'wk__deliver' }, w.deliverable),
-        el('div', { class: 'wk__progress' }, `${doneInWeek}/${daysInWeek.length}`)
+        el('div', { class: 'wk__progress' }, `${doneInWeek}/7`)
       )
     );
     container.appendChild(card);
@@ -3208,7 +2232,7 @@ function renderWeeks() {
         el('div', { class: 'week-head__num' }, `WEEK ${pad(w.n).slice(-2)}`),
         el('div', { class: 'week-head__title' }, w.title),
         el('div', { class: 'week-head__meta' },
-          `${doneInWeek}/${daysInWeek.length} done · ${w.range}`,
+          `${doneInWeek}/7 done · ${w.range}`,
           el('span', { class: 'toggle-icon' }, '+')
         )
       ),
@@ -3288,9 +2312,9 @@ function toggleChecked(n) {
 function updateProgress() {
   const p = loadProgress();
   const done = Object.values(p).filter(Boolean).length;
-  const pct = Math.round((done / 60) * 100);
+  const pct = Math.round((done / 42) * 100);
   document.getElementById('progress-fill').style.width = pct + '%';
-  document.getElementById('progress-label').textContent = `${done} / 60 SESSIONS COMPLETE`;
+  document.getElementById('progress-label').textContent = `${done} / 42 SESSIONS COMPLETE`;
 
   // Update per-week counts in the accordion headings
   WEEKS.forEach(w => {
@@ -3300,7 +2324,7 @@ function updateProgress() {
     const daysInWeek = DAYS.filter(d => d.week === w.n);
     const doneInWeek = daysInWeek.filter(d => isChecked(d.n)).length;
     if (meta) {
-      meta.childNodes[0].nodeValue = `${doneInWeek}/${daysInWeek.length} done · ${w.range}`;
+      meta.childNodes[0].nodeValue = `${doneInWeek}/7 done · ${w.range}`;
     }
   });
 }
@@ -3332,80 +2356,28 @@ function renderTools() {
 // --- prompts -------------------------------------------------
 function renderPrompts() {
   const container = document.getElementById('prompts-container');
+  PROMPTS.forEach(p => {
+    const btn = el('button', {
+      class: 'prompt-card__copy',
+      onclick: () => {
+        navigator.clipboard.writeText(p.body).then(() => {
+          btn.textContent = 'Copied ✓';
+          btn.classList.add('is-copied');
+          setTimeout(() => {
+            btn.textContent = 'Copy prompt';
+            btn.classList.remove('is-copied');
+          }, 1500);
+        });
+      }
+    }, 'Copy prompt');
 
-  const TIERS = [
-    {
-      level: 'beginner',
-      num: '/ TIER 01',
-      title: 'Beginner',
-      desc: 'Structurally simple: one input, one output, one clear task. Reach for these anytime you want a fast, low-stakes result — from Day 1 through Day 60.'
-    },
-    {
-      level: 'intermediate',
-      num: '/ TIER 02',
-      title: 'Intermediate',
-      desc: 'Multiple inputs, structured multi-part output. Use these when the task has real weight and you want to shape the answer, not just receive it.'
-    },
-    {
-      level: 'advanced',
-      num: '/ TIER 03',
-      title: 'Advanced',
-      desc: 'Research-grade, high-stakes, often multi-turn. These take longer to write, but the output is worth an afternoon of your time — grant narratives, methodology, reviewer responses.'
-    },
-    {
-      level: 'app-scale',
-      num: '/ TIER 04',
-      title: 'App-Scale Prompts',
-      desc: 'Long-form specifications and multi-step workflows. Each produces a substantial artefact — a build-spec, a pipeline, a semester plan. Save every output.'
-    }
-  ];
-
-  TIERS.forEach(tier => {
-    // Tier header
-    const header = el('div', { class: 'prompt-tier' },
-      el('div', { class: 'prompt-tier__num' }, tier.num),
-      el('div', {},
-        el('h3', { class: 'prompt-tier__title' }, tier.title),
-        el('p', { class: 'prompt-tier__desc' }, tier.desc)
-      )
+    const card = el('div', { class: 'prompt-card' },
+      el('div', { class: 'prompt-card__label' }, p.label),
+      el('h4', { class: 'prompt-card__title' }, p.title),
+      el('div', { class: 'prompt-card__body' }, p.body),
+      btn
     );
-    container.appendChild(header);
-
-    // Grid for this tier
-    const gridClass = tier.level === 'app-scale'
-      ? 'prompt-grid prompt-grid--app-scale'
-      : 'prompt-grid';
-    const grid = el('div', { class: gridClass });
-
-    const cardClass = tier.level === 'app-scale'
-      ? 'prompt-card prompt-card--large'
-      : 'prompt-card';
-
-    PROMPTS.filter(p => p.level === tier.level).forEach(p => {
-      const btn = el('button', {
-        class: 'prompt-card__copy',
-        onclick: () => {
-          navigator.clipboard.writeText(p.body).then(() => {
-            btn.textContent = 'Copied ✓';
-            btn.classList.add('is-copied');
-            setTimeout(() => {
-              btn.textContent = 'Copy prompt';
-              btn.classList.remove('is-copied');
-            }, 1500);
-          });
-        }
-      }, 'Copy prompt');
-
-      const card = el('div', { class: cardClass },
-        el('div', { class: 'prompt-card__label' }, p.label),
-        el('h4', { class: 'prompt-card__title' }, p.title),
-        el('div', { class: 'prompt-card__body' }, p.body),
-        btn
-      );
-      grid.appendChild(card);
-    });
-
-    container.appendChild(grid);
+    container.appendChild(card);
   });
 }
 
